@@ -24,4 +24,4 @@ python manage.py migrate
 
 python manage.py runserver
 
-_Также необходимо скачать Redis-client для работы и запустить redis-cli и redis-server_
+_Также необходимо скачать Redis-client для работы функций, реализованных с помощью Django-channels и запустить redis-cli и redis-server_
