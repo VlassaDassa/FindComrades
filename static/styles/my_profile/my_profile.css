@@ -1,0 +1,388 @@
+*::before{
+  pointer-events: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: Bombardier;
+}
+
+/*Header*/
+.header{
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 89, 89);
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -40px;
+    padding: 0px;
+}
+
+.logo a{
+    display: inline-block;
+    height: 50px;
+}
+
+.navbar{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 1375px;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+
+.container{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+}
+
+.container{
+    color: rgb(255, 89, 89);
+}
+
+.name{
+    margin-left: 25px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+
+.circle {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: rgb(255, 89, 89);
+      margin-top: 3px;
+    }
+
+
+.online{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -20px;
+}
+
+.str_online{
+    margin-left: 20px;
+}
+
+
+.circle-image{
+    display: inline-block;
+    overflow: hidden;
+    width: 15%;
+    padding-bottom: 15%;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.circle-image img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    clip-path: circle(50%);
+    object-fit: cover;
+}
+
+
+.data{
+    width: 200px;
+    height: 150px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+    margin-top: -170px;
+    margin-left: 250px;
+    display: table;
+}
+
+
+.data_str{
+   display: table-cell;
+   text-align: left;
+   vertical-align: middle;
+   padding-left: 25px;
+}
+
+.data_str p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.description{
+    display: inline-block;
+    height: 55%;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.content{
+    font-family: Garet;
+    margin: 25px;
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 18px;
+    word-wrap:break-word;
+}
+
+
+.skills{
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 480px;
+}
+
+.skill a:nth-child(1){
+    text-decoration: none;
+    color: rgb(255, 89, 89);
+    }
+
+.skill{
+    margin-top: 220px;
+    display: inline-block;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+    margin-right: 20px;
+}
+
+.skill img{
+    visibility: hidden;
+    display: flex;
+    height: 25px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+
+.plus {
+  position: absolute;
+  width:45px;
+  height:45px;
+  top: 220px;
+
+  background:
+  linear-gradient(#FF5959, #FF5959), linear-gradient(#FF5959, #FF5959), white;
+  background-position:center;
+  background-size: 50% 2px,2px 50%;
+  background-repeat:no-repeat;
+  border-radius:50%;
+
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+}
+
+/* Меню */
+.menu_burger{
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 15%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+}
+
+.title_menu{
+    background-color: rgb(255, 89, 89);
+    height: 50px;
+}
+
+.title_menu img:nth-child(1){
+    padding-left: 10px;
+}
+
+.title_menu img:nth-child(2){
+    padding-left: 20px;
+    width: 35px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+
+.menu_link{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 89, 89);
+    font-size: 30px;
+    padding: 15px;
+}
+
+/*Карандашики*/
+.name a {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.data_str a {
+    position: absolute;
+    margin-left: 135px;
+}
+
+
+.content a{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+/*Hover*/
+.photo{
+    visibility: hidden;
+}
+
+
+.circle-image:hover .photo{
+    visibility: visible;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+
+.navbar a:nth-child(1):hover, .navbar a:nth-child(2):hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+.skill:hover img{
+    visibility: visible;
+    display: flex;
+    height: 25px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.skill:hover{
+    background: linear-gradient(white, rgb(255, 89, 89, .2));
+}
+
+.plus:hover{
+   margin-top: -15px;
+   transition: margin .4s;
+}
+
+.plus:not(:hover){
+    transition: margin .4s;
+}
+
+.burger{
+    width: 50px;
+}
+
+
+.burger:not(:hover) .menu_burger{
+    left: -300px;
+    transition: left .4s;
+}
+
+
+.burger:hover .menu_burger{
+   left: 0px;
+   transition: left .4s;
+}
+
+.menu_link:hover {
+    margin-left: 15px;
+    transition: margin .4s;
+}
+
+.menu_link:not(:hover) {
+    transition: margin .4s;
+}
+
+
+/* Login */
+.dropbtn {
+  background-color: white;
+  color: rgb(255, 89, 89);
+  font-family: Bombardier;
+  padding: 16px;
+  font-size: 20px;
+  max-height: 50px;
+  border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: absolute;
+  margin-left: 1730px;
+  margin-top: -60px;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: rgb(255, 89, 89);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {border-bottom: 2px solid rgb(255, 89, 89);}
+
+
+
+
+
+
+
+
+
+

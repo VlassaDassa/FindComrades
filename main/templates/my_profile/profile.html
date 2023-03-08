@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+
+    <h1>Ваш профиль!</h1>
+
+    {% if user.avatar %}
+        <img height="100" src="{{ MEDIA_URL }}{{ user.avatar.url }}"/>
+    {% endif %}
+
+    <p>Username: {{ user.username }}</p>
+
+    {% if user.first_name %}
+        <p>Имя: {{ user.first_name }}</p>
+    {% endif %}
+
+    {% if user.last_name %}
+        <p>Фамилия: {{ user.last_name }}</p>
+    {% endif %}
+
+    {% if user.bio %}
+        <p>Описание: {{ user.bio }}</p>
+    {% endif %}
+
+
+    {% if user.city %}
+        <p>Город: {{ user.city }}</p>
+    {% endif %}
+
+    {% if user.sex %}
+        <p>Пол: {{ user.sex }}</p>
+    {% endif %}
+
+
+    {% if user.age %}
+        <p>Возраст: {{ user.age }}</p>
+    {% endif %}
+
+
+    {% if user.skills %}
+        <p>Умения: {{ user.skills }}</p>
+    {% endif %}
+
+</body>
+</html>

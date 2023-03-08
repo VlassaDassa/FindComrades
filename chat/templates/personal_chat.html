@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    {% load split %}
+    <meta charset="UTF-8">
+    <title>Диалог с {{user.username}}</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="{% static 'styles/chat/chat.css' %}">
+</head>
+<body>
+
+    <!--Header-->
+    <div class="header">
+        <div class="burger">
+            <img src="{% static 'images/Burger_2.png' %}">
+
+            <!--Menu-->
+            <div class="menu">
+                <div class="menu-header">
+                    <img src="{% static 'images/logo_2.png' %}">
+                    <img src="{% static 'images/Burger_menu.png' %}">
+                </div>
+
+                <div class="menu-elements">
+                    {% if request.user.username %}
+                            <a class="menu_link" href="{% url 'user_profile' request.user.username %}">Профиль</a>
+                    {% endif %}
+                    <a class="menu_link" href="{% url 'articles' %}">Публикации</a>
+                    <a class="menu_link" href="{% url 'comrades' %}">Товарищи</a>
+                    <a class="menu_link" href="#">Сообщения</a>
+                    <a class="menu_link" href="#">Комнаты</a>
+                    <a class="menu_link" href="{% url 'exit' %}">Выйти</a>
+                </div>
+            </div>
+            <!--/Menu-->
+
+        </div>
+
+        <div class="logo">
+            <a href="{% url 'main' %}"><img src="{% static 'images/logo_2.png' %}"></a>
+        </div>
+
+        <div class="navbar">
+                <a href="https://vk.com/7b5l21ya">Поддержка</a>
+                <a href="https://vk.com/7b5l21ya">Контакты</a>
+        </div>
+        
+        <div class="dropdown">
+                      {% if user.is_authenticated %}
+                            <button class="dropbtn">{{ request.user }}</button>
+                            <div class="dropdown-content">
+                                <a href="{% url 'exit' %}">Выйти</a>
+                            </div>
+                      {% else %}
+                            <button class="dropbtn">Войти</button>
+                            <div class="dropdown-content">
+                                <a href="{% url 'login' %}">Войти</a>
+                                <a href="{% url 'reg' %}">Регистрация</a>
+                            </div>
+                    {% endif %}
+        </div>
+
+        <!--Notifications-->
+            {% if user.is_authenticated %}
+                <div class="notifications">
+                    {% if count_friend_requests %}
+                        <button onclick="show_notifications()" class="notifications_btn">Уведомления <p class="total_notif">{{ count_friend_requests }}</p></button>
+                    {% else %}
+                        <button onclick="show_notifications()" class="notifications_btn">Уведомления <p class="total_notif">0</p></button>
+                    {% endif %}
+                    <div id="notif_content"  class="notifications-content hide">
+                        {% if Receivers %}
+                            {% for fr_req in Receivers %}
+                                <div class="friend_request_notification" id="notif_{{ fr_req.friend_request_id }}">
+                                    <a href="{% url 'user_profile' fr_req.receiver_username %}"><img height="100" id="receiver_avatar" src="/media/{{ fr_req.receiver_avatar }}"></a>
+
+                                    <p id="title_friend_request">Отправлен запрос на дружбу!</p>
+                                    <p class="sender_username" style="display: none">{{ fr_req.sender_username }}</p>
+                                    {% if fr_req.receiver_last_name %}
+                                        <p id="description_friend_request">{{ fr_req.receiver_first_name }} {{ fr_req.receiver_last_name }}<br>Хочет стать вашим товарищем</p>
+                                    {% else %}
+                                        <p id="description_friend_request">{{ fr_req.receiver_username }}<br>Хочет стать вашим товарищем</p>
+                                    {% endif %}
+
+                                    <a href="#" id="accept_{{ fr_req.friend_request_id }}" class="friend_request_btn">Добавить</a>
+                                    <a href="#" id="cancel_{{ fr_req.friend_request_id }}" class="friend_request_btn">Отмена</a>
+
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="none_notif">Сегодня уведомлений не было замечено</div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+            <!--/Notifications-->
+
+        </div>
+    <!--/Header-->
+
+    <!--Dialog-->
+    <div class="container">
+        <div class="started_dialogues">
+            {% if started_dialogues %}
+                {% for i in started_dialogues %}
+                    <div id="{{ i.username }}" class="dialog">
+                        <a href="{% url 'chat' i.username %}"><img src="/media/default.jpg"></a>
+                        <a href="{% url 'chat' i.username %}" class="link_started_dialogues"><p class="fullname">{{ i.fullname }}</p></a>
+                        {% if request.user.username == i.sender_message %}
+                            <p class="last_message">Я: {{ i.last_message }}</p>
+                        {% else %}
+                            <p class="last_message">{{ i.last_message }}</p>
+                        {% endif %}
+                        {% if i.count_unread_msg_alien %}
+                            <div class="count_unread_msg_alien">{{ i.count_unread_msg_alien }}</div>
+                        {% endif %}
+                        {% if i.count_unread_msg_my %}
+                            <div class="count_unread_msg_my">{{ i.count_unread_msg_my }}</div>
+                        {% endif %}
+
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="none_started_dialogues">Найдите товарища!</div>
+            {% endif %}
+        </div>
+
+        <div class="current_dialog">
+
+            <div class="header_cur_dialog">
+                <a href="{% url 'user_profile' user.username %}"><p class="header_fullname">{{ user.full_name | title }}</p></a>
+                {% if online_status %}
+                    <p class="online-status">online</p>
+                {% else %}
+                    <p class="online-status">offline</p>
+                {% endif %}
+            </div>
+
+
+            {% if messages %}
+                <div class="messages">
+                    {% for i in messages %}
+                        {% if i.sender == request.user.username %}
+                            {% if i.read%}
+                                <div id="{{ i.id }}" class="message my_message">
+                                    <p class="text_message">{{ i.message|linebreaksbr  }}</p>
+                                </div>
+                            {% else %}
+                                <div id="{{ i.id }}" class="message my_message unread_my">
+                                    <p class="text_message">{{ i.message|linebreaksbr  }}</p>
+                                </div>
+                            {% endif %}
+                        {% else %}
+                            {% if message.read %}
+                                <div id="{{ i.id }}"  class="alien_message">
+                                    <p class="fullname_alien_message"><a href="{% url 'user_profile' user.username %}">{{ user.username | name_by_username }}</a></p>
+                                    <div class="message alien_message_">
+                                        <p class="text_message">{{ i.message|linebreaksbr  }}</p>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div id="{{ i.id }}"  class="alien_message unread_alien">
+                                    <p class="fullname_alien_message"><a href="{% url 'user_profile' user.username %}">{{ user.username | name_by_username }}</a></p>
+                                    <div class="message alien_message_">
+                                        <p class="text_message">{{ i.message|linebreaksbr  }}</p>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="messages">
+                    <div class="none-messages">Как-то пустовато...</div>
+                </div>
+            {% endif %}
+
+            <div class="send_message_container">
+                <textarea rows="3" class="textareaElement"></textarea>
+                <p class='send_message_btn'><img class='send_message_image' src="{% static 'images/send.png' %}"></p>
+            </div>
+        </div>
+    </div>
+    <!--Dialog-->
+
+
+
+{{user.id|json_script:"json-username"}}
+{{request.user.username|json_script:"json-message-username"}}
+
+
+<!--Scripts-->
+<script language="JavaScript" type="text/javascript" src="{% static 'JQuery/JQuery.js' %}"></script>
+<script src="{% static 'js/chat.js' %}"></script>
+<script src="{% static 'js/notifications.js' %}"></script>
+<script src="{% static 'js/comrade_notifications.js' %}"></script>
+</body>
+</html>

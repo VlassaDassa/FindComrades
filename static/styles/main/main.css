@@ -1,0 +1,348 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-family: Bombardier;
+}
+
+.header{
+    height: 100px;
+    width: 1440;
+    position: relative;
+}
+
+.burger{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 89, 89);
+}
+
+.burger img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.navbar {
+    position: absolute;
+    right: 100px;
+    height: 100px;
+    margin-right: 150px;
+}
+
+.navbar a{
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(255, 89, 89);
+    font-size: 25px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+
+
+
+
+#logo{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 150px;
+
+}
+
+.preview {
+    height: 600px;
+    background-color: rgb(255, 89, 89);
+}
+
+
+.preview img {
+    display:block;
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.preview div:last-child {
+    display:block;
+    border-radius: 20px;
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    margin-left: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.preview a:last-child {
+    display:inline-block;
+    color: rgb(255, 89, 89);
+    margin: auto;
+    margin-left: 23px;
+    margin-right: 10px;
+    margin-top: 13px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.description_site{
+    border:2px solid rgb(255, 89, 89);
+    height: 140px;
+}
+
+
+.description_site p {
+    font-size: 25px;
+    color: rgb(255, 89, 89);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 35px;
+    word-spacing: 5px
+
+}
+
+
+.content {
+    height: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main_title_pub {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    color: rgb(255, 89, 89);
+}
+
+
+.user_public{
+    height: 360px;
+    width: auto;
+    border:3px solid rgb(255, 89, 89);
+}
+
+
+.pub_content{
+    height: 240px;
+    border:3px solid rgb(255, 89, 89);
+    border-right-style: none;
+    border-left-style: none;
+    background-color: rgb(255, 89, 89);
+}
+
+.pub_content p {
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 30px;
+    line-height: 35px;
+    word-spacing: 5px
+}
+
+
+.pub_title{
+    height: 70px;
+}
+
+.pub_title a {
+    display: inline-block;
+    color: rgb(255, 89, 89);
+    font-size: 40px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.pub_title a:hover {
+    color: #FF7A7A;
+}
+
+
+.pub_likes{
+    height: 45px;
+    color: rgb(255, 89, 89);
+    margin-bottom: 60px;
+}
+
+
+.comments{
+    display: inline-block;
+    margin-left: 1200px;
+    margin-top: 3px;
+}
+
+#total_comm {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -1px;
+    font-size: 40px;
+    position: absolute;
+}
+
+
+.likes{
+    display: inline-block;
+    margin-left: 300px;
+    margin-bottom: 0px;
+
+}
+
+#total_likes {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -1px;
+    font-size: 40px;
+    position: absolute;
+
+}
+
+
+
+
+/* Меню */
+
+.burger:hover .menu_burger{
+    margin-left: 0px;
+    transition: margin .4s;
+}
+
+.burger:not(:hover) .menu_burger{
+    margin-left: -500px;
+    transition: margin .4s;
+}
+
+
+.menu_burger{
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+
+    width: 25%;
+    height: 100%;
+    padding: 0px;
+    box-shadow: 2px 0px 50px black;
+}
+
+.title_menu{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 89, 89);
+}
+
+.title_menu img {
+    margin: 25px;
+}
+
+.title_menu img:last-child{
+    margin-left: 80px;
+}
+
+.elements_menu {
+    color: rgb(255, 89, 89);
+    font-size: 48px;
+}
+
+
+
+.elements_menu a:hover{
+    background-color: rgb(255, 89, 89);
+    color: white;
+    transition: margin 1s;
+}
+
+
+.elements_menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.menu_link{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 89, 89);
+    border-bottom: 2px solid;
+    padding: 15px;
+
+}
+
+
+/* Hover */
+.navbar a:first-child:hover{
+    border-bottom: 2px solid rgb(255, 89, 89);
+    padding-bottom: 5px;
+    transition: .1s ease-out;
+}
+
+.navbar a:nth-child(2):hover{
+    border-bottom: 2px solid rgb(255, 89, 89);
+    padding-bottom: 5px;
+    transition: .1s ease-out;
+}
+
+
+
+/* Login */
+.dropbtn {
+  background-color: rgb(255, 89, 89);
+  border-radius: 45px;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  font-family: Bombardier;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1700px;
+  margin-top: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 89, 89);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(255, 89, 89, .1);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: rgb(255, 89, 89);
+    border: 1px solid rgb(255, 89, 89);
+ }
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    {% load split %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи</title>
+    <link rel="stylesheet" href="{% static 'styles/blog/blog.css' %}">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="burger_logo">
+            <div class="burger_menu">
+                <div class="burger" onclick="open_menu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <div class="logo"><a href="{% url 'main' %}">FindComrade</a></div>
+        </div>
+
+        <div class="notif_login">
+            {% if request.user.is_active %}
+                {% if Receivers %}
+                    <div class="notifications"  onclick="open_notifications()">Уведомления<div class="circle"></div></div>
+                {% else %}
+                    <div class="notifications"  onclick="open_notifications()">Уведомления</div>
+                {% endif %}
+                <div class="login" onclick="username_dropdown()">{{ request.user.username }}</div>
+            {% else %}
+                <div class="login" onclick="login_dropdown()">Войти</div>
+            {% endif %}
+        </div>
+
+    </header>
+    <!-- /Header -->
+
+    <!-- Container -->
+    <div class="container">
+        <div class="search">
+            <form action="{% url 'articles' %}" id="search-form">
+                <input class="searchbar" type="text" placeholder="Поиск...">
+            </form>
+
+            <div class="category" id="IT">IT</div>
+            <div class="category" id="FrontEnd">FrontEnd</div>
+            <div class="category" id="BackEnd">BackEnd</div>
+            <div class="category" id="JavaScript">JavaScript</div>
+            <div class="category" id="Python">Python</div>
+            <div class="category" id="all">Все</div>
+
+            {% if request.user.is_active %}
+                <div class="create_pub"><a href="{% url 'create_article' %}">Создать публикацию</a></div>
+            {% endif %}
+        </div>
+        
+
+        <div class="articles">
+            <div class="find_result">
+                Все статьи
+            </div>
+            
+            {% if articles %}
+                {% for article in articles %}
+                    <div class="article">
+                        <div class="article-header"><a href="{% url 'user_article' article.id %}">{{ article.title }}</a></div>
+                        <p class="article-content">
+                            {{ article.content | get_limit_char }} <span class="read_continuation"><a href="{% url 'user_article' article.id %}">Читать дальше</a></span>
+                        </p>
+
+                        <div class="likes">
+                            <img src="{% static 'images/like_pub.png' %}" alt="Лайк" class="heart">
+                            <span class="total_likes">{{ article.likes.count }}</span>
+                        </div>
+                    </div>
+                {% endfor %}
+                
+                    {% if show_btn_continuation %}
+                        <div class="continuation" onclick="load_articles()" id="1">Ещё...</div>
+                    {% endif %}
+                    
+            {% else %}
+                <div class="none_content">Пусто</div>                
+            {% endif %}
+        </div>
+    </div>
+    <!-- /Container -->
+    
+    
+    
+    <!-- Notifications -->
+    {% if Receivers %}
+        <div class="popup-notification hide">
+            {% for fr_req in Receivers %}
+                <div class="friend_request" id="{{ fr_req.friend_request_id }}">
+                    <div class="img_fullname">
+                        <img class="sender_avatar" src="/media/{{ fr_req.receiver_avatar }}">
+                        <p class="fr_req_text">
+                            <span id="{{ fr_req.sender_username }}" class="fullname">{{ fr_req.receiver_first_name }} {{ fr_req.receiver_last_name }}</span><br>
+                            Предлагает вам дружбу
+                        </p>
+                    </div>
+                    <div class="fr_req_btn">
+                        <div class="friend_request_btn accept_fr_req">Дружить</div>
+                        <div class="friend_request_btn decline_fr_req">Отклонить</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="popup-notification none hide"><p class="label-none">Ничего нет</p></div>
+    {% endif %}
+    <!-- /Notifications -->
+    
+
+    <!-- Dropdown -->
+    <div class="exit hide">
+        <div><a href="{% url  'exit' %}">Выйти</a></div>
+    </div>
+    
+    <div class="login_reg hide">
+        <div><a href="{% url  'login' %}">Войти</a></div>
+        <div><a href="{% url  'reg' %}">Регистрация</a></div>
+    </div>
+    <!-- /Dropdown -->
+    
+    
+
+{{request.user.username|json_script:"json-username"}}
+
+<div class="current_theme">gray</div>
+<div class="current_category">all</div>
+
+<script src="{% static 'JQuery/JQuery.js' %}"></script>
+
+<script src="{% static 'js/articles/articles.js' %}"></script>
+<script src="{% static 'js/articles/articles_notif.js' %}"></script>
+<script src="{% static 'js/online.js' %}"></script>
+</body>
+</html>
+
+<!-- Уведомления, выпадающий список у войти, смена темы -->
+

@@ -1,0 +1,95 @@
+<html>
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Edit profile</title>
+    <link rel="stylesheet" href="{% static 'styles/my_profile/edit_profile.css' %}">
+    <!--Cropper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.css">
+    <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.js"></script>
+
+    <!--Autocomplete-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+</head>
+<body>
+    <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Упс... Ошибочка</h2>
+                <div class="content">
+                    Вы ещё не авторизованы.
+                    Сейчас вас перенаправит на <a href="{% url 'login' %}" id="link_main">страницу авторизации</a>
+                    <div id="timer" class="circle surface with-border-gradient"><p>1</p></div>
+                </div>
+            </div>
+        </div>
+
+
+    {{ request.user.is_active|json_script:"user_active" }}
+
+    <!--Header-->
+    <div class="header">
+        <a href="{% url 'main' %}"><img src="{% static 'images/logo_2.png' %}"></a>
+    </div>
+
+    <div class="container">
+        <form method="POST" action="{% url 'autocomplete' %}" novalidate enctype='multipart/form-data' id="image-form">
+        {% csrf_token %}
+
+
+        <div class="forms-wrapper">
+            <div id="title">Редактирование профиля</div>
+
+            {% for field in form %}
+            <div class="form-wrapper">
+
+                {% if field.name == 'avatar' %}
+                    <div id="form-wrapper-avatar">
+                        <div id="avatar_clue">Минимальное разрешение - 400x400</div>
+                        <div id="label_image">Текущее фото</div>
+                        <div id="image-border"><a id="link_image" href="#"><img src="{{ MEDIA_URL }}{{ user.avatar.url }}" id="image_file" onclick = "pro1()"></a></div>
+                        <div id="edit_image"><a href="#" onclick=pro1()>Изменить</a></div>
+                        <div id="image-box" class="image-container"></div>
+                        <button id="crop-btn" style="margin-top: 20px; display: none;" type="button">Обрезать</button>
+                        <div id="hide_form">
+                            {{ field }}
+                        </div>
+                    </div>
+                {% else %}
+                    {% if field.name == 'skills' %}
+
+                        <div id="form-wrapper-skills">
+                            {{ field.label_tag }}{{ field }}
+                            <div id="skills_clue">Перечислите через запятую ваши навыки<br>Например: Python, JavaScript, Django</div>
+                        </div>
+                        {% else %}
+                            {{ field.label_tag }}{{ field }}
+                    {% endif %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+
+        <input type=submit id="submit" value=Сохранить disabled>
+    </div>
+
+
+<!--Tags-->
+<script src="{% static 'js/tags_edit-profile/src/jquery.tagsinput-revisited.js' %}"></script>
+<link rel="stylesheet" href="{% static 'js/tags_edit-profile/src/jquery.tagsinput-revisited.css' %}">
+
+<!--Script.js-->
+<script type="text/javascript" src="{% static 'js/csrf.js' %}"></script>
+<script src="{% static 'js/notifications.js' %}"></script>
+<script src="{% static 'js/online.js' %}"></script>
+<script language="JavaScript" type="text/javascript" src="{% static 'js/edit_profile.js' %}"></script>
+</body>
+</html>
+
+
+

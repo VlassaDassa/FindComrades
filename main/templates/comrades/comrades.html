@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Товарищи</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="{% static 'styles/comrades/comrades.css' %}">
+
+</head>
+<body>
+
+<!--Header-->
+<div class="header">
+    <div class="burger">
+        <img src="{% static 'images/Burger_2.png' %}">
+
+        <!--Menu-->
+        <div class="menu">
+            <div class="menu-header">
+                <img src="{% static 'images/logo_2.png' %}">
+                <img src="{% static 'images/Burger_menu.png' %}">
+            </div>
+
+            <div class="menu-elements">
+                {% if user.username %}
+                        <a class="menu_link" href="{% url 'user_profile' user.username %}">Профиль</a>
+                {% endif %}
+                <a class="menu_link" href="{% url 'articles' %}">Публикации</a>
+                <a class="menu_link" href="{% url 'comrades' %}">Товарищи</a>
+                <a class="menu_link" href="#">Сообщения</a>
+                <a class="menu_link" href="#">Комнаты</a>
+                <a class="menu_link" href="{% url 'exit' %}">Выйти</a>
+            </div>
+        </div>
+        <!--/Menu-->
+
+    </div>
+
+    <div class="logo">
+        <a href="{% url 'main' %}"><img src="{% static 'images/logo_2.png' %}"></a>
+    </div>
+
+    <div class="navbar">
+            <a href="https://vk.com/7b5l21ya">Поддержка</a>
+            <a href="https://vk.com/7b5l21ya">Контакты</a>
+    </div>
+
+    <div class="dropdown">
+                  {% if user.is_authenticated %}
+                        <button class="dropbtn">{{ request.user }}</button>
+                        <div class="dropdown-content">
+                            <a href="{% url 'exit' %}">Выйти</a>
+                        </div>
+                  {% else %}
+                        <button class="dropbtn">Войти</button>
+                        <div class="dropdown-content">
+                            <a href="{% url 'login' %}">Войти</a>
+                            <a href="{% url 'reg' %}">Регистрация</a>
+                        </div>
+                {% endif %}
+    </div>
+
+    <!--Notifications-->
+        {% if user.is_authenticated %}
+            <div class="notifications">
+                {% if count_friend_requests %}
+                    <button onclick="show_notifications()" class="notifications_btn">Уведомления <p class="total_notif">{{ count_friend_requests }}</p></button>
+                {% else %}
+                    <button onclick="show_notifications()" class="notifications_btn">Уведомления <p class="total_notif">0</p></button>
+                {% endif %}
+                <div id="notif_content"  class="notifications-content hide">
+                    {% if Receivers %}
+                        {% for fr_req in Receivers %}
+                            <div class="friend_request_notification" id="notif_{{ fr_req.friend_request_id }}">
+                                <a href="{% url 'user_profile' fr_req.receiver_username %}"><img height="100" id="receiver_avatar" src="/media/{{ fr_req.receiver_avatar }}"></a>
+
+                                <p id="title_friend_request">Отправлен запрос на дружбу!</p>
+                                <p class="sender_username" style="display: none">{{ fr_req.sender_username }}</p>
+                                {% if fr_req.receiver_last_name %}
+                                    <p id="description_friend_request">{{ fr_req.receiver_first_name }} {{ fr_req.receiver_last_name }}<br>Хочет стать вашим товарищем</p>
+                                {% else %}
+                                    <p id="description_friend_request">{{ fr_req.receiver_username }}<br>Хочет стать вашим товарищем</p>
+                                {% endif %}
+
+                                <a href="#" id="accept_{{ fr_req.friend_request_id }}" class="friend_request_btn">Добавить</a>
+                                <a href="#" id="cancel_{{ fr_req.friend_request_id }}" class="friend_request_btn">Отмена</a>
+
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="none_notif">Сегодня уведомлений не было замечено</div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+        <!--/Notifications-->
+
+</div>
+<!--/Header-->
+
+<!--Container-content-->
+    <div class="container">
+        <div class="header-container">
+
+            <!-- TABS -->
+            <div class="tabs">
+                <button class="btn-tabs selected" id="btn-comrades">Товарищи</button>
+                <button class="btn-tabs" id="btn-online">Свободные</button>
+                <button class="btn-tabs" id="btn-find">Найти нового товарища</button>
+            </div>
+            <!-- /TABS -->
+        </div>
+
+        <!-- COMRADES -->
+        <div class="content-comrades">
+
+            <!--SEARCH-->
+            <div class="searchbar">
+                    <div class="search-btn"><img src="{% static 'images/search-btn.png' %}"></div>
+                    <form action="{% url 'comrades' %}" id="form_for_comrades">
+                        <input id="search_for_comrades" class="search">
+                    </form>
+            </div>
+            <!--/SEARCH-->
+
+            <!--COMRADES-->
+            <div class="comrades-people">
+                 <!--Friends-->
+                {% if comrades %}
+                    {% for user in comrades %}
+                        <div class="comrade">
+                            {% if user.online_status %}
+                                <a href="/profile/{{ user.user.username }}"><img class="comrade-avatar" src="/media/{{ user.user.avatar }}"><div class="circle"></div></a>
+                            {% else %}
+                                <a href="/profile/{{ user.user.username }}"><img class="comrade-avatar" src="/media/{{ user.user.avatar }}"><div class="circle offline"></div></a>
+                            {% endif %}
+
+                            <div class="full-name">
+                                <p class="first_name">{{ user.user.first_name }}</p>
+                                <p class="last_name">{{ user.user.last_name }}</p>
+                            </div>
+
+                            <div class="comrade-btn">
+                                <a href="/chat/{{ user.user.username }}"><button class="send_message" id="{{ user.user.username }}">Написать</button></a>
+                                <button class="friend_request delete_friend" id="{{ user.user.username }}">Убрать</button>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                <!--/Friends-->
+            </div>
+            <!--/COMRADES-->
+
+        </div>
+
+        <div class="content-free hide">
+
+            <!--SEARCH-->
+            <div class="searchbar">
+                    <div class="search-btn"><img src="{% static 'images/search-btn.png' %}"></div>
+                    <form action="{% url 'comrades' %}" id="form_for_free">
+                        <input id="search_for_free" class="search">
+                    </form>
+            </div>
+            <!--/SEARCH-->
+
+            <!--FREE-COMRADES-->
+            <div class="comrades-free">
+                <!--Friends-->
+                {% if free_comrades %}
+                    {% for user in free_comrades %}
+                        <div class="comrade">
+                            <a href="/profile/{{ user.user.username }}"><img class="comrade-avatar" src="/media/{{ user.user.avatar }}"><div class="circle"></div></a>
+
+                            <div class="full-name">
+                                <p class="first_name">{{ user.user.first_name }}</p>
+                                <p class="last_name">{{ user.user.last_name }}</p>
+                            </div>
+
+                            <div class="comrade-btn">
+                                <button class="send_message" id="{{ user.user.username }}">Написать</button>
+                                <button class="friend_request delete_friend" id="{{ user.user.username }}">Убрать</button>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                <!--/Friends-->
+            </div>
+            <!--/FREE-COMRADES-->
+
+        </div>
+
+        <div class="content-find hide">
+
+            <div class="people">
+                <!--First upload-->
+                {% if users %}
+                    {% for user in users %}
+                        {% if user.status != 'friend' %}
+                            <div class="comrade new">
+                                {% if user.online_status %}
+                                    <a href="/profile/{{ user.user.username }}"><img class="comrade-avatar" src="/media/{{ user.user.avatar }}"><div class="circle"></div></a>
+                                {% else %}
+                                    <a href="/profile/{{ user.user.username }}"><img class="comrade-avatar" src="/media/{{ user.user.avatar }}"><div class="circle offline"></div></a>
+                                {% endif %}
+
+                                <div class="full-name">
+                                    <p class="first_name">{{ user.user.first_name }}</p>
+                                    <p class="last_name">{{ user.user.last_name }}</p>
+                                </div>
+
+                                <div class="comrade-btn">
+                                    <button class="send_message" id="{{ user.user.username }}">Написать</button>
+
+                                    {% if user.status == 'add' %}
+                                        <button class="friend_request add_friend" id="{{ user.user.username }}">Добавить</button>
+                                    {% endif %}
+
+                                    {% if user.status == 'request' %}
+                                        <button class="friend_request cancel_friend_request" id="{{ user.user.username }}">Отменить запрос</button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="filter-container">
+                    {% csrf_token %}
+                    <form action="{% url 'comrades' %}" id="form_for_find">
+                        <div class="searchbar_filter">
+                            <div class="search-btn_filter"><img src="{% static 'images/search-btn.png' %}"></div>
+                            <input id="search_for_find" class="search">
+                        </div>
+
+                        <div class="filter">
+                        <p>Умения</p>
+                        <input type="text" id="skills" autocomplete="off" class="filter-text">
+
+                        <p>Город</p>
+                        <input type="text" id="city" autocomplete="off" class="filter-text">
+
+                        <div class="age-filter">
+                            <p>Возраст</p>
+                            <div class="interval">
+                                от
+                                <input type="text" autocomplete="off" class="input-interval" id="start-interval" maxlength="2">
+                                до
+                                <input type="text" autocomplete="off" class="input-interval" id="end-interval" maxlength="2">
+                            </div>
+
+
+
+                            <div class="gender">
+                                <p>Пол</p>
+                                <div>
+                                    <input type="checkbox" id="male" value="male" name="gender" class="gender_check"><label for="male">Мужской</label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" id="female" value="female" name="gender" class="gender_check"><label for="female">Женский</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    </form>
+            </div>
+        </div>
+        <!-- /COMRADES -->
+
+    </div>
+<!--/Container-content-->
+
+
+<!--JS-->
+<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="{% static 'js/comrades.js' %}"></script>
+<script src="{% static 'js/notifications.js' %}"></script>
+<script src="{% static 'js/comrade_notifications.js' %}"></script>
+
+
+<!--Tags-->
+<script src="{% static 'js/tags_comrades/src/jquery.tagsinput-revisited.js' %}"></script>
+<link rel="stylesheet" href="{% static 'js/tags_comrades/src/jquery.tagsinput-revisited.css' %}">
+
+<!--Autocomplete tags-->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="{% static 'js/online.js' %}"></script>
+
+</body>
+</html>
+
+

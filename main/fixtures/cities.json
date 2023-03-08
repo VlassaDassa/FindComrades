@@ -1,0 +1,7933 @@
+[
+    {
+        "model": "main.city",
+        "pk": 1,
+        "fields": {
+            "city_name": "Абаза"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 2,
+        "fields": {
+            "city_name": "Абакан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 3,
+        "fields": {
+            "city_name": "Абдулино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 4,
+        "fields": {
+            "city_name": "Абинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 5,
+        "fields": {
+            "city_name": "Агидель"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 6,
+        "fields": {
+            "city_name": "Агрыз"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 7,
+        "fields": {
+            "city_name": "Адыгейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 8,
+        "fields": {
+            "city_name": "Азнакаево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 9,
+        "fields": {
+            "city_name": "Азов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 10,
+        "fields": {
+            "city_name": "Ак-Довурак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 11,
+        "fields": {
+            "city_name": "Аксай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 12,
+        "fields": {
+            "city_name": "Алагир"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 13,
+        "fields": {
+            "city_name": "Алапаевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 14,
+        "fields": {
+            "city_name": "Алатырь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 15,
+        "fields": {
+            "city_name": "Алдан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 16,
+        "fields": {
+            "city_name": "Алейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 17,
+        "fields": {
+            "city_name": "Александров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 18,
+        "fields": {
+            "city_name": "Александровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 19,
+        "fields": {
+            "city_name": "Александровск-Сахалинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 20,
+        "fields": {
+            "city_name": "Алексеевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 21,
+        "fields": {
+            "city_name": "Алексин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 22,
+        "fields": {
+            "city_name": "Алзамай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 23,
+        "fields": {
+            "city_name": "Алупка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 24,
+        "fields": {
+            "city_name": "Алушта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 25,
+        "fields": {
+            "city_name": "Альметьевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 26,
+        "fields": {
+            "city_name": "Амурск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 27,
+        "fields": {
+            "city_name": "Анадырь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 28,
+        "fields": {
+            "city_name": "Анапа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 29,
+        "fields": {
+            "city_name": "Ангарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 30,
+        "fields": {
+            "city_name": "Андреаполь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 31,
+        "fields": {
+            "city_name": "Анжеро-Судженск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 32,
+        "fields": {
+            "city_name": "Анива"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 33,
+        "fields": {
+            "city_name": "Апатиты"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 34,
+        "fields": {
+            "city_name": "Апрелевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 35,
+        "fields": {
+            "city_name": "Апшеронск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 36,
+        "fields": {
+            "city_name": "Арамиль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 37,
+        "fields": {
+            "city_name": "Аргун"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 38,
+        "fields": {
+            "city_name": "Ардатов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 39,
+        "fields": {
+            "city_name": "Ардон"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 40,
+        "fields": {
+            "city_name": "Арзамас"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 41,
+        "fields": {
+            "city_name": "Аркадак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 42,
+        "fields": {
+            "city_name": "Армавир"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 43,
+        "fields": {
+            "city_name": "Армянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 44,
+        "fields": {
+            "city_name": "Арсеньев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 45,
+        "fields": {
+            "city_name": "Арск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 46,
+        "fields": {
+            "city_name": "Артём"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 47,
+        "fields": {
+            "city_name": "Артёмовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 48,
+        "fields": {
+            "city_name": "Артёмовский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 49,
+        "fields": {
+            "city_name": "Архангельск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 50,
+        "fields": {
+            "city_name": "Асбест"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 51,
+        "fields": {
+            "city_name": "Асино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 52,
+        "fields": {
+            "city_name": "Астрахань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 53,
+        "fields": {
+            "city_name": "Аткарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 54,
+        "fields": {
+            "city_name": "Ахтубинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 55,
+        "fields": {
+            "city_name": "Ачинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 56,
+        "fields": {
+            "city_name": "Аша"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 57,
+        "fields": {
+            "city_name": "Бабаево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 58,
+        "fields": {
+            "city_name": "Бабушкин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 59,
+        "fields": {
+            "city_name": "Бавлы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 60,
+        "fields": {
+            "city_name": "Багратионовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 61,
+        "fields": {
+            "city_name": "Байкальск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 62,
+        "fields": {
+            "city_name": "Баймак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 63,
+        "fields": {
+            "city_name": "Бакал"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 64,
+        "fields": {
+            "city_name": "Баксан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 65,
+        "fields": {
+            "city_name": "Балабаново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 66,
+        "fields": {
+            "city_name": "Балаково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 67,
+        "fields": {
+            "city_name": "Балахна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 68,
+        "fields": {
+            "city_name": "Балашиха"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 69,
+        "fields": {
+            "city_name": "Балашов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 70,
+        "fields": {
+            "city_name": "Балей"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 71,
+        "fields": {
+            "city_name": "Балтийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 72,
+        "fields": {
+            "city_name": "Барабинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 73,
+        "fields": {
+            "city_name": "Барнаул"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 74,
+        "fields": {
+            "city_name": "Барыш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 75,
+        "fields": {
+            "city_name": "Батайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 76,
+        "fields": {
+            "city_name": "Бахчисарай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 77,
+        "fields": {
+            "city_name": "Бежецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 78,
+        "fields": {
+            "city_name": "Белая Калитва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 79,
+        "fields": {
+            "city_name": "Белая Холуница"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 80,
+        "fields": {
+            "city_name": "Белгород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 81,
+        "fields": {
+            "city_name": "Белебей"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 82,
+        "fields": {
+            "city_name": "Белёв"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 83,
+        "fields": {
+            "city_name": "Белинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 84,
+        "fields": {
+            "city_name": "Белово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 85,
+        "fields": {
+            "city_name": "Белогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 86,
+        "fields": {
+            "city_name": "Белогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 87,
+        "fields": {
+            "city_name": "Белозерск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 88,
+        "fields": {
+            "city_name": "Белокуриха"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 89,
+        "fields": {
+            "city_name": "Беломорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 90,
+        "fields": {
+            "city_name": "Белоозёрский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 91,
+        "fields": {
+            "city_name": "Белорецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 92,
+        "fields": {
+            "city_name": "Белореченск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 93,
+        "fields": {
+            "city_name": "Белоусово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 94,
+        "fields": {
+            "city_name": "Белоярский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 95,
+        "fields": {
+            "city_name": "Белый"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 96,
+        "fields": {
+            "city_name": "Бердск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 97,
+        "fields": {
+            "city_name": "Березники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 98,
+        "fields": {
+            "city_name": "Берёзовский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 99,
+        "fields": {
+            "city_name": "Берёзовский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 100,
+        "fields": {
+            "city_name": "Беслан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 101,
+        "fields": {
+            "city_name": "Бийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 102,
+        "fields": {
+            "city_name": "Бикин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 103,
+        "fields": {
+            "city_name": "Билибино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 104,
+        "fields": {
+            "city_name": "Биробиджан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 105,
+        "fields": {
+            "city_name": "Бирск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 106,
+        "fields": {
+            "city_name": "Бирюсинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 107,
+        "fields": {
+            "city_name": "Бирюч"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 108,
+        "fields": {
+            "city_name": "Благовещенск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 109,
+        "fields": {
+            "city_name": "Благовещенск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 110,
+        "fields": {
+            "city_name": "Благодарный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 111,
+        "fields": {
+            "city_name": "Бобров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 112,
+        "fields": {
+            "city_name": "Богданович"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 113,
+        "fields": {
+            "city_name": "Богородицк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 114,
+        "fields": {
+            "city_name": "Богородск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 115,
+        "fields": {
+            "city_name": "Боготол"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 116,
+        "fields": {
+            "city_name": "Богучар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 117,
+        "fields": {
+            "city_name": "Бодайбо"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 118,
+        "fields": {
+            "city_name": "Бокситогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 119,
+        "fields": {
+            "city_name": "Болгар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 120,
+        "fields": {
+            "city_name": "Бологое"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 121,
+        "fields": {
+            "city_name": "Болотное"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 122,
+        "fields": {
+            "city_name": "Болохово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 123,
+        "fields": {
+            "city_name": "Болхов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 124,
+        "fields": {
+            "city_name": "Большой Камень"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 125,
+        "fields": {
+            "city_name": "Бор"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 126,
+        "fields": {
+            "city_name": "Борзя"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 127,
+        "fields": {
+            "city_name": "Борисоглебск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 128,
+        "fields": {
+            "city_name": "Боровичи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 129,
+        "fields": {
+            "city_name": "Боровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 130,
+        "fields": {
+            "city_name": "Бородино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 131,
+        "fields": {
+            "city_name": "Братск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 132,
+        "fields": {
+            "city_name": "Бронницы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 133,
+        "fields": {
+            "city_name": "Брянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 134,
+        "fields": {
+            "city_name": "Бугульма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 135,
+        "fields": {
+            "city_name": "Бугуруслан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 136,
+        "fields": {
+            "city_name": "Будённовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 137,
+        "fields": {
+            "city_name": "Бузулук"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 138,
+        "fields": {
+            "city_name": "Буинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 139,
+        "fields": {
+            "city_name": "Буй"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 140,
+        "fields": {
+            "city_name": "Буйнакск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 141,
+        "fields": {
+            "city_name": "Бутурлиновка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 142,
+        "fields": {
+            "city_name": "Валдай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 143,
+        "fields": {
+            "city_name": "Валуйки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 144,
+        "fields": {
+            "city_name": "Велиж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 145,
+        "fields": {
+            "city_name": "Великие Луки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 146,
+        "fields": {
+            "city_name": "Великий Новгород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 147,
+        "fields": {
+            "city_name": "Великий Устюг"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 148,
+        "fields": {
+            "city_name": "Вельск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 149,
+        "fields": {
+            "city_name": "Венёв"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 150,
+        "fields": {
+            "city_name": "Верещагино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 151,
+        "fields": {
+            "city_name": "Верея"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 152,
+        "fields": {
+            "city_name": "Верхнеуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 153,
+        "fields": {
+            "city_name": "Верхний Тагил"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 154,
+        "fields": {
+            "city_name": "Верхний Уфалей"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 155,
+        "fields": {
+            "city_name": "Верхняя Пышма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 156,
+        "fields": {
+            "city_name": "Верхняя Салда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 157,
+        "fields": {
+            "city_name": "Верхняя Тура"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 158,
+        "fields": {
+            "city_name": "Верхотурье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 159,
+        "fields": {
+            "city_name": "Верхоянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 160,
+        "fields": {
+            "city_name": "Весьегонск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 161,
+        "fields": {
+            "city_name": "Ветлуга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 162,
+        "fields": {
+            "city_name": "Видное"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 163,
+        "fields": {
+            "city_name": "Вилюйск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 164,
+        "fields": {
+            "city_name": "Вилючинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 165,
+        "fields": {
+            "city_name": "Вихоревка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 166,
+        "fields": {
+            "city_name": "Вичуга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 167,
+        "fields": {
+            "city_name": "Владивосток"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 168,
+        "fields": {
+            "city_name": "Владикавказ"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 169,
+        "fields": {
+            "city_name": "Владимир"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 170,
+        "fields": {
+            "city_name": "Волгоград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 171,
+        "fields": {
+            "city_name": "Волгодонск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 172,
+        "fields": {
+            "city_name": "Волгореченск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 173,
+        "fields": {
+            "city_name": "Волжск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 174,
+        "fields": {
+            "city_name": "Волжский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 175,
+        "fields": {
+            "city_name": "Вологда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 176,
+        "fields": {
+            "city_name": "Володарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 177,
+        "fields": {
+            "city_name": "Волоколамск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 178,
+        "fields": {
+            "city_name": "Волосово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 179,
+        "fields": {
+            "city_name": "Волхов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 180,
+        "fields": {
+            "city_name": "Волчанск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 181,
+        "fields": {
+            "city_name": "Вольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 182,
+        "fields": {
+            "city_name": "Воркута"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 183,
+        "fields": {
+            "city_name": "Воронеж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 184,
+        "fields": {
+            "city_name": "Ворсма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 185,
+        "fields": {
+            "city_name": "Воскресенск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 186,
+        "fields": {
+            "city_name": "Воткинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 187,
+        "fields": {
+            "city_name": "Всеволожск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 188,
+        "fields": {
+            "city_name": "Вуктыл"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 189,
+        "fields": {
+            "city_name": "Выборг"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 190,
+        "fields": {
+            "city_name": "Выкса"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 191,
+        "fields": {
+            "city_name": "Высоковск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 192,
+        "fields": {
+            "city_name": "Высоцк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 193,
+        "fields": {
+            "city_name": "Вытегра"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 194,
+        "fields": {
+            "city_name": "Вышний Волочёк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 195,
+        "fields": {
+            "city_name": "Вяземский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 196,
+        "fields": {
+            "city_name": "Вязники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 197,
+        "fields": {
+            "city_name": "Вязьма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 198,
+        "fields": {
+            "city_name": "Вятские Поляны"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 199,
+        "fields": {
+            "city_name": "Гаврилов Посад"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 200,
+        "fields": {
+            "city_name": "Гаврилов-Ям"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 201,
+        "fields": {
+            "city_name": "Гагарин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 202,
+        "fields": {
+            "city_name": "Гаджиево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 203,
+        "fields": {
+            "city_name": "Гай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 204,
+        "fields": {
+            "city_name": "Галич"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 205,
+        "fields": {
+            "city_name": "Гатчина"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 206,
+        "fields": {
+            "city_name": "Гвардейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 207,
+        "fields": {
+            "city_name": "Гдов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 208,
+        "fields": {
+            "city_name": "Геленджик"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 209,
+        "fields": {
+            "city_name": "Георгиевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 210,
+        "fields": {
+            "city_name": "Глазов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 211,
+        "fields": {
+            "city_name": "Голицыно"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 212,
+        "fields": {
+            "city_name": "Горбатов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 213,
+        "fields": {
+            "city_name": "Горно-Алтайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 214,
+        "fields": {
+            "city_name": "Горнозаводск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 215,
+        "fields": {
+            "city_name": "Горняк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 216,
+        "fields": {
+            "city_name": "Городец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 217,
+        "fields": {
+            "city_name": "Городище"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 218,
+        "fields": {
+            "city_name": "Городовиковск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 219,
+        "fields": {
+            "city_name": "Гороховец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 220,
+        "fields": {
+            "city_name": "Горячий Ключ"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 221,
+        "fields": {
+            "city_name": "Грайворон"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 222,
+        "fields": {
+            "city_name": "Гремячинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 223,
+        "fields": {
+            "city_name": "Грозный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 224,
+        "fields": {
+            "city_name": "Грязи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 225,
+        "fields": {
+            "city_name": "Грязовец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 226,
+        "fields": {
+            "city_name": "Губаха"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 227,
+        "fields": {
+            "city_name": "Губкин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 228,
+        "fields": {
+            "city_name": "Губкинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 229,
+        "fields": {
+            "city_name": "Гудермес"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 230,
+        "fields": {
+            "city_name": "Гуково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 231,
+        "fields": {
+            "city_name": "Гулькевичи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 232,
+        "fields": {
+            "city_name": "Гурьевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 233,
+        "fields": {
+            "city_name": "Гурьевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 234,
+        "fields": {
+            "city_name": "Гусев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 235,
+        "fields": {
+            "city_name": "Гусиноозёрск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 236,
+        "fields": {
+            "city_name": "Гусь-Хрустальный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 237,
+        "fields": {
+            "city_name": "Давлеканово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 238,
+        "fields": {
+            "city_name": "Дагестанские Огни"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 239,
+        "fields": {
+            "city_name": "Далматово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 240,
+        "fields": {
+            "city_name": "Дальнегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 241,
+        "fields": {
+            "city_name": "Дальнереченск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 242,
+        "fields": {
+            "city_name": "Данилов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 243,
+        "fields": {
+            "city_name": "Данков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 244,
+        "fields": {
+            "city_name": "Дегтярск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 245,
+        "fields": {
+            "city_name": "Дедовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 246,
+        "fields": {
+            "city_name": "Демидов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 247,
+        "fields": {
+            "city_name": "Дербент"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 248,
+        "fields": {
+            "city_name": "Десногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 249,
+        "fields": {
+            "city_name": "Джанкой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 250,
+        "fields": {
+            "city_name": "Дзержинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 251,
+        "fields": {
+            "city_name": "Дзержинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 252,
+        "fields": {
+            "city_name": "Дивногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 253,
+        "fields": {
+            "city_name": "Дигора"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 254,
+        "fields": {
+            "city_name": "Димитровград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 255,
+        "fields": {
+            "city_name": "Дмитриев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 256,
+        "fields": {
+            "city_name": "Дмитров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 257,
+        "fields": {
+            "city_name": "Дмитровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 258,
+        "fields": {
+            "city_name": "Дно"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 259,
+        "fields": {
+            "city_name": "Добрянка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 260,
+        "fields": {
+            "city_name": "Долгопрудный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 261,
+        "fields": {
+            "city_name": "Долинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 262,
+        "fields": {
+            "city_name": "Домодедово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 263,
+        "fields": {
+            "city_name": "Донецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 264,
+        "fields": {
+            "city_name": "Донской"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 265,
+        "fields": {
+            "city_name": "Дорогобуж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 266,
+        "fields": {
+            "city_name": "Дрезна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 267,
+        "fields": {
+            "city_name": "Дубна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 268,
+        "fields": {
+            "city_name": "Дубовка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 269,
+        "fields": {
+            "city_name": "Дудинка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 270,
+        "fields": {
+            "city_name": "Духовщина"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 271,
+        "fields": {
+            "city_name": "Дюртюли"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 272,
+        "fields": {
+            "city_name": "Дятьково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 273,
+        "fields": {
+            "city_name": "Евпатория"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 274,
+        "fields": {
+            "city_name": "Егорьевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 275,
+        "fields": {
+            "city_name": "Ейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 276,
+        "fields": {
+            "city_name": "Екатеринбург"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 277,
+        "fields": {
+            "city_name": "Елабуга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 278,
+        "fields": {
+            "city_name": "Елец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 279,
+        "fields": {
+            "city_name": "Елизово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 280,
+        "fields": {
+            "city_name": "Ельня"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 281,
+        "fields": {
+            "city_name": "Еманжелинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 282,
+        "fields": {
+            "city_name": "Емва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 283,
+        "fields": {
+            "city_name": "Енисейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 284,
+        "fields": {
+            "city_name": "Ермолино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 285,
+        "fields": {
+            "city_name": "Ершов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 286,
+        "fields": {
+            "city_name": "Ессентуки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 287,
+        "fields": {
+            "city_name": "Ефремов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 288,
+        "fields": {
+            "city_name": "Железноводск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 289,
+        "fields": {
+            "city_name": "Железногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 290,
+        "fields": {
+            "city_name": "Железногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 291,
+        "fields": {
+            "city_name": "Железногорск-Илимский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 292,
+        "fields": {
+            "city_name": "Жердевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 293,
+        "fields": {
+            "city_name": "Жигулёвск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 294,
+        "fields": {
+            "city_name": "Жиздра"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 295,
+        "fields": {
+            "city_name": "Жирновск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 296,
+        "fields": {
+            "city_name": "Жуков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 297,
+        "fields": {
+            "city_name": "Жуковка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 298,
+        "fields": {
+            "city_name": "Жуковский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 299,
+        "fields": {
+            "city_name": "Завитинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 300,
+        "fields": {
+            "city_name": "Заводоуковск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 301,
+        "fields": {
+            "city_name": "Заволжск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 302,
+        "fields": {
+            "city_name": "Заволжье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 303,
+        "fields": {
+            "city_name": "Задонск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 304,
+        "fields": {
+            "city_name": "Заинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 305,
+        "fields": {
+            "city_name": "Закаменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 306,
+        "fields": {
+            "city_name": "Заозёрный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 307,
+        "fields": {
+            "city_name": "Заозёрск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 308,
+        "fields": {
+            "city_name": "Западная Двина"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 309,
+        "fields": {
+            "city_name": "Заполярный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 310,
+        "fields": {
+            "city_name": "Зарайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 311,
+        "fields": {
+            "city_name": "Заречный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 312,
+        "fields": {
+            "city_name": "Заречный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 313,
+        "fields": {
+            "city_name": "Заринск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 314,
+        "fields": {
+            "city_name": "Звенигово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 315,
+        "fields": {
+            "city_name": "Звенигород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 316,
+        "fields": {
+            "city_name": "Зверево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 317,
+        "fields": {
+            "city_name": "Зеленогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 318,
+        "fields": {
+            "city_name": "Зеленоградск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 319,
+        "fields": {
+            "city_name": "Зеленодольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 320,
+        "fields": {
+            "city_name": "Зеленокумск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 321,
+        "fields": {
+            "city_name": "Зерноград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 322,
+        "fields": {
+            "city_name": "Зея"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 323,
+        "fields": {
+            "city_name": "Зима"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 324,
+        "fields": {
+            "city_name": "Златоуст"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 325,
+        "fields": {
+            "city_name": "Злынка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 326,
+        "fields": {
+            "city_name": "Змеиногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 327,
+        "fields": {
+            "city_name": "Знаменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 328,
+        "fields": {
+            "city_name": "Зубцов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 329,
+        "fields": {
+            "city_name": "Зуевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 330,
+        "fields": {
+            "city_name": "Ивангород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 331,
+        "fields": {
+            "city_name": "Иваново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 332,
+        "fields": {
+            "city_name": "Ивантеевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 333,
+        "fields": {
+            "city_name": "Ивдель"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 334,
+        "fields": {
+            "city_name": "Игарка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 335,
+        "fields": {
+            "city_name": "Ижевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 336,
+        "fields": {
+            "city_name": "Избербаш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 337,
+        "fields": {
+            "city_name": "Изобильный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 338,
+        "fields": {
+            "city_name": "Иланский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 339,
+        "fields": {
+            "city_name": "Инза"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 340,
+        "fields": {
+            "city_name": "Иннополис"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 341,
+        "fields": {
+            "city_name": "Инсар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 342,
+        "fields": {
+            "city_name": "Инта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 343,
+        "fields": {
+            "city_name": "Ипатово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 344,
+        "fields": {
+            "city_name": "Ирбит"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 345,
+        "fields": {
+            "city_name": "Иркутск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 346,
+        "fields": {
+            "city_name": "Исилькуль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 347,
+        "fields": {
+            "city_name": "Искитим"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 348,
+        "fields": {
+            "city_name": "Истра"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 349,
+        "fields": {
+            "city_name": "Ишим"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 350,
+        "fields": {
+            "city_name": "Ишимбай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 351,
+        "fields": {
+            "city_name": "Йошкар-Ола"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 352,
+        "fields": {
+            "city_name": "Кадников"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 353,
+        "fields": {
+            "city_name": "Казань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 354,
+        "fields": {
+            "city_name": "Калач"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 355,
+        "fields": {
+            "city_name": "Калач-на-Дону"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 356,
+        "fields": {
+            "city_name": "Калачинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 357,
+        "fields": {
+            "city_name": "Калининград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 358,
+        "fields": {
+            "city_name": "Калининск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 359,
+        "fields": {
+            "city_name": "Калтан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 360,
+        "fields": {
+            "city_name": "Калуга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 361,
+        "fields": {
+            "city_name": "Калязин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 362,
+        "fields": {
+            "city_name": "Камбарка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 363,
+        "fields": {
+            "city_name": "Каменка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 364,
+        "fields": {
+            "city_name": "Каменногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 365,
+        "fields": {
+            "city_name": "Каменск-Уральский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 366,
+        "fields": {
+            "city_name": "Каменск-Шахтинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 367,
+        "fields": {
+            "city_name": "Камень-на-Оби"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 368,
+        "fields": {
+            "city_name": "Камешково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 369,
+        "fields": {
+            "city_name": "Камызяк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 370,
+        "fields": {
+            "city_name": "Камышин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 371,
+        "fields": {
+            "city_name": "Камышлов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 372,
+        "fields": {
+            "city_name": "Канаш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 373,
+        "fields": {
+            "city_name": "Кандалакша"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 374,
+        "fields": {
+            "city_name": "Канск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 375,
+        "fields": {
+            "city_name": "Карабаново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 376,
+        "fields": {
+            "city_name": "Карабаш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 377,
+        "fields": {
+            "city_name": "Карабулак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 378,
+        "fields": {
+            "city_name": "Карасук"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 379,
+        "fields": {
+            "city_name": "Карачаевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 380,
+        "fields": {
+            "city_name": "Карачев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 381,
+        "fields": {
+            "city_name": "Каргат"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 382,
+        "fields": {
+            "city_name": "Каргополь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 383,
+        "fields": {
+            "city_name": "Карпинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 384,
+        "fields": {
+            "city_name": "Карталы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 385,
+        "fields": {
+            "city_name": "Касимов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 386,
+        "fields": {
+            "city_name": "Касли"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 387,
+        "fields": {
+            "city_name": "Каспийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 388,
+        "fields": {
+            "city_name": "Катав-Ивановск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 389,
+        "fields": {
+            "city_name": "Катайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 390,
+        "fields": {
+            "city_name": "Качканар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 391,
+        "fields": {
+            "city_name": "Кашин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 392,
+        "fields": {
+            "city_name": "Кашира"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 393,
+        "fields": {
+            "city_name": "Кедровый"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 394,
+        "fields": {
+            "city_name": "Кемерово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 395,
+        "fields": {
+            "city_name": "Кемь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 396,
+        "fields": {
+            "city_name": "Керчь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 397,
+        "fields": {
+            "city_name": "Кизел"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 398,
+        "fields": {
+            "city_name": "Кизилюрт"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 399,
+        "fields": {
+            "city_name": "Кизляр"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 400,
+        "fields": {
+            "city_name": "Кимовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 401,
+        "fields": {
+            "city_name": "Кимры"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 402,
+        "fields": {
+            "city_name": "Кингисепп"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 403,
+        "fields": {
+            "city_name": "Кинель"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 404,
+        "fields": {
+            "city_name": "Кинешма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 405,
+        "fields": {
+            "city_name": "Киреевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 406,
+        "fields": {
+            "city_name": "Киренск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 407,
+        "fields": {
+            "city_name": "Киржач"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 408,
+        "fields": {
+            "city_name": "Кириллов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 409,
+        "fields": {
+            "city_name": "Кириши"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 410,
+        "fields": {
+            "city_name": "Киров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 411,
+        "fields": {
+            "city_name": "Киров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 412,
+        "fields": {
+            "city_name": "Кировград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 413,
+        "fields": {
+            "city_name": "Кирово-Чепецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 414,
+        "fields": {
+            "city_name": "Кировск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 415,
+        "fields": {
+            "city_name": "Кировск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 416,
+        "fields": {
+            "city_name": "Кирс"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 417,
+        "fields": {
+            "city_name": "Кирсанов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 418,
+        "fields": {
+            "city_name": "Киселёвск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 419,
+        "fields": {
+            "city_name": "Кисловодск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 420,
+        "fields": {
+            "city_name": "Клин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 421,
+        "fields": {
+            "city_name": "Клинцы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 422,
+        "fields": {
+            "city_name": "Княгинино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 423,
+        "fields": {
+            "city_name": "Ковдор"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 424,
+        "fields": {
+            "city_name": "Ковров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 425,
+        "fields": {
+            "city_name": "Ковылкино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 426,
+        "fields": {
+            "city_name": "Когалым"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 427,
+        "fields": {
+            "city_name": "Кодинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 428,
+        "fields": {
+            "city_name": "Козельск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 429,
+        "fields": {
+            "city_name": "Козловка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 430,
+        "fields": {
+            "city_name": "Козьмодемьянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 431,
+        "fields": {
+            "city_name": "Кола"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 432,
+        "fields": {
+            "city_name": "Кологрив"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 433,
+        "fields": {
+            "city_name": "Коломна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 434,
+        "fields": {
+            "city_name": "Колпашево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 435,
+        "fields": {
+            "city_name": "Кольчугино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 436,
+        "fields": {
+            "city_name": "Коммунар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 437,
+        "fields": {
+            "city_name": "Комсомольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 438,
+        "fields": {
+            "city_name": "Комсомольск-на-Амуре"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 439,
+        "fields": {
+            "city_name": "Конаково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 440,
+        "fields": {
+            "city_name": "Кондопога"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 441,
+        "fields": {
+            "city_name": "Кондрово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 442,
+        "fields": {
+            "city_name": "Константиновск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 443,
+        "fields": {
+            "city_name": "Копейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 444,
+        "fields": {
+            "city_name": "Кораблино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 445,
+        "fields": {
+            "city_name": "Кореновск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 446,
+        "fields": {
+            "city_name": "Коркино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 447,
+        "fields": {
+            "city_name": "Королёв"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 448,
+        "fields": {
+            "city_name": "Короча"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 449,
+        "fields": {
+            "city_name": "Корсаков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 450,
+        "fields": {
+            "city_name": "Коряжма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 451,
+        "fields": {
+            "city_name": "Костерёво"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 452,
+        "fields": {
+            "city_name": "Костомукша"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 453,
+        "fields": {
+            "city_name": "Кострома"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 454,
+        "fields": {
+            "city_name": "Котельники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 455,
+        "fields": {
+            "city_name": "Котельниково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 456,
+        "fields": {
+            "city_name": "Котельнич"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 457,
+        "fields": {
+            "city_name": "Котлас"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 458,
+        "fields": {
+            "city_name": "Котово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 459,
+        "fields": {
+            "city_name": "Котовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 460,
+        "fields": {
+            "city_name": "Кохма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 461,
+        "fields": {
+            "city_name": "Красавино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 462,
+        "fields": {
+            "city_name": "Красноармейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 463,
+        "fields": {
+            "city_name": "Красноармейск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 464,
+        "fields": {
+            "city_name": "Красновишерск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 465,
+        "fields": {
+            "city_name": "Красногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 466,
+        "fields": {
+            "city_name": "Краснодар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 467,
+        "fields": {
+            "city_name": "Краснозаводск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 468,
+        "fields": {
+            "city_name": "Краснознаменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 469,
+        "fields": {
+            "city_name": "Краснознаменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 470,
+        "fields": {
+            "city_name": "Краснокаменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 471,
+        "fields": {
+            "city_name": "Краснокамск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 472,
+        "fields": {
+            "city_name": "Красноперекопск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 473,
+        "fields": {
+            "city_name": "Краснослободск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 474,
+        "fields": {
+            "city_name": "Краснослободск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 475,
+        "fields": {
+            "city_name": "Краснотурьинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 476,
+        "fields": {
+            "city_name": "Красноуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 477,
+        "fields": {
+            "city_name": "Красноуфимск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 478,
+        "fields": {
+            "city_name": "Красноярск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 479,
+        "fields": {
+            "city_name": "Красный Кут"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 480,
+        "fields": {
+            "city_name": "Красный Сулин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 481,
+        "fields": {
+            "city_name": "Красный Холм"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 482,
+        "fields": {
+            "city_name": "Кремёнки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 483,
+        "fields": {
+            "city_name": "Кропоткин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 484,
+        "fields": {
+            "city_name": "Крымск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 485,
+        "fields": {
+            "city_name": "Кстово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 486,
+        "fields": {
+            "city_name": "Кубинка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 487,
+        "fields": {
+            "city_name": "Кувандык"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 488,
+        "fields": {
+            "city_name": "Кувшиново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 489,
+        "fields": {
+            "city_name": "Кудрово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 490,
+        "fields": {
+            "city_name": "Кудымкар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 491,
+        "fields": {
+            "city_name": "Кузнецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 492,
+        "fields": {
+            "city_name": "Куйбышев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 493,
+        "fields": {
+            "city_name": "Кукмор"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 494,
+        "fields": {
+            "city_name": "Кулебаки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 495,
+        "fields": {
+            "city_name": "Кумертау"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 496,
+        "fields": {
+            "city_name": "Кунгур"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 497,
+        "fields": {
+            "city_name": "Купино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 498,
+        "fields": {
+            "city_name": "Курган"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 499,
+        "fields": {
+            "city_name": "Курганинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 500,
+        "fields": {
+            "city_name": "Курильск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 501,
+        "fields": {
+            "city_name": "Курлово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 502,
+        "fields": {
+            "city_name": "Куровское"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 503,
+        "fields": {
+            "city_name": "Курск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 504,
+        "fields": {
+            "city_name": "Куртамыш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 505,
+        "fields": {
+            "city_name": "Курчалой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 506,
+        "fields": {
+            "city_name": "Курчатов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 507,
+        "fields": {
+            "city_name": "Куса"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 508,
+        "fields": {
+            "city_name": "Кушва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 509,
+        "fields": {
+            "city_name": "Кызыл"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 510,
+        "fields": {
+            "city_name": "Кыштым"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 511,
+        "fields": {
+            "city_name": "Кяхта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 512,
+        "fields": {
+            "city_name": "Лабинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 513,
+        "fields": {
+            "city_name": "Лабытнанги"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 514,
+        "fields": {
+            "city_name": "Лагань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 515,
+        "fields": {
+            "city_name": "Ладушкин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 516,
+        "fields": {
+            "city_name": "Лаишево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 517,
+        "fields": {
+            "city_name": "Лакинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 518,
+        "fields": {
+            "city_name": "Лангепас"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 519,
+        "fields": {
+            "city_name": "Лахденпохья"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 520,
+        "fields": {
+            "city_name": "Лебедянь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 521,
+        "fields": {
+            "city_name": "Лениногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 522,
+        "fields": {
+            "city_name": "Ленинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 523,
+        "fields": {
+            "city_name": "Ленинск-Кузнецкий"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 524,
+        "fields": {
+            "city_name": "Ленск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 525,
+        "fields": {
+            "city_name": "Лермонтов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 526,
+        "fields": {
+            "city_name": "Лесной"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 527,
+        "fields": {
+            "city_name": "Лесозаводск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 528,
+        "fields": {
+            "city_name": "Лесосибирск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 529,
+        "fields": {
+            "city_name": "Ливны"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 530,
+        "fields": {
+            "city_name": "Ликино-Дулёво"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 531,
+        "fields": {
+            "city_name": "Липецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 532,
+        "fields": {
+            "city_name": "Липки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 533,
+        "fields": {
+            "city_name": "Лиски"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 534,
+        "fields": {
+            "city_name": "Лихославль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 535,
+        "fields": {
+            "city_name": "Лобня"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 536,
+        "fields": {
+            "city_name": "Лодейное Поле"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 537,
+        "fields": {
+            "city_name": "Лосино-Петровский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 538,
+        "fields": {
+            "city_name": "Луга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 539,
+        "fields": {
+            "city_name": "Луза"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 540,
+        "fields": {
+            "city_name": "Лукоянов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 541,
+        "fields": {
+            "city_name": "Луховицы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 542,
+        "fields": {
+            "city_name": "Лысково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 543,
+        "fields": {
+            "city_name": "Лысьва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 544,
+        "fields": {
+            "city_name": "Лыткарино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 545,
+        "fields": {
+            "city_name": "Льгов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 546,
+        "fields": {
+            "city_name": "Любань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 547,
+        "fields": {
+            "city_name": "Люберцы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 548,
+        "fields": {
+            "city_name": "Любим"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 549,
+        "fields": {
+            "city_name": "Людиново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 550,
+        "fields": {
+            "city_name": "Лянтор"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 551,
+        "fields": {
+            "city_name": "Магадан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 552,
+        "fields": {
+            "city_name": "Магас"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 553,
+        "fields": {
+            "city_name": "Магнитогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 554,
+        "fields": {
+            "city_name": "Майкоп"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 555,
+        "fields": {
+            "city_name": "Майский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 556,
+        "fields": {
+            "city_name": "Макаров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 557,
+        "fields": {
+            "city_name": "Макарьев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 558,
+        "fields": {
+            "city_name": "Макушино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 559,
+        "fields": {
+            "city_name": "Малая Вишера"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 560,
+        "fields": {
+            "city_name": "Малгобек"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 561,
+        "fields": {
+            "city_name": "Малмыж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 562,
+        "fields": {
+            "city_name": "Малоархангельск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 563,
+        "fields": {
+            "city_name": "Малоярославец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 564,
+        "fields": {
+            "city_name": "Мамадыш"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 565,
+        "fields": {
+            "city_name": "Мамоново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 566,
+        "fields": {
+            "city_name": "Мантурово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 567,
+        "fields": {
+            "city_name": "Мариинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 568,
+        "fields": {
+            "city_name": "Мариинский Посад"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 569,
+        "fields": {
+            "city_name": "Маркс"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 570,
+        "fields": {
+            "city_name": "Махачкала"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 571,
+        "fields": {
+            "city_name": "Мглин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 572,
+        "fields": {
+            "city_name": "Мегион"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 573,
+        "fields": {
+            "city_name": "Медвежьегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 574,
+        "fields": {
+            "city_name": "Медногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 575,
+        "fields": {
+            "city_name": "Медынь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 576,
+        "fields": {
+            "city_name": "Межгорье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 577,
+        "fields": {
+            "city_name": "Междуреченск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 578,
+        "fields": {
+            "city_name": "Мезень"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 579,
+        "fields": {
+            "city_name": "Меленки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 580,
+        "fields": {
+            "city_name": "Мелеуз"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 581,
+        "fields": {
+            "city_name": "Менделеевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 582,
+        "fields": {
+            "city_name": "Мензелинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 583,
+        "fields": {
+            "city_name": "Мещовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 584,
+        "fields": {
+            "city_name": "Миасс"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 585,
+        "fields": {
+            "city_name": "Микунь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 586,
+        "fields": {
+            "city_name": "Миллерово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 587,
+        "fields": {
+            "city_name": "Минеральные Воды"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 588,
+        "fields": {
+            "city_name": "Минусинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 589,
+        "fields": {
+            "city_name": "Миньяр"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 590,
+        "fields": {
+            "city_name": "Мирный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 591,
+        "fields": {
+            "city_name": "Мирный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 592,
+        "fields": {
+            "city_name": "Михайлов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 593,
+        "fields": {
+            "city_name": "Михайловка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 594,
+        "fields": {
+            "city_name": "Михайловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 595,
+        "fields": {
+            "city_name": "Михайловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 596,
+        "fields": {
+            "city_name": "Мичуринск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 597,
+        "fields": {
+            "city_name": "Могоча"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 598,
+        "fields": {
+            "city_name": "Можайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 599,
+        "fields": {
+            "city_name": "Можга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 600,
+        "fields": {
+            "city_name": "Моздок"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 601,
+        "fields": {
+            "city_name": "Мончегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 602,
+        "fields": {
+            "city_name": "Морозовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 603,
+        "fields": {
+            "city_name": "Моршанск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 604,
+        "fields": {
+            "city_name": "Мосальск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 605,
+        "fields": {
+            "city_name": "Москва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 606,
+        "fields": {
+            "city_name": "Муравленко"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 607,
+        "fields": {
+            "city_name": "Мураши"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 608,
+        "fields": {
+            "city_name": "Мурино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 609,
+        "fields": {
+            "city_name": "Мурманск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 610,
+        "fields": {
+            "city_name": "Муром"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 611,
+        "fields": {
+            "city_name": "Мценск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 612,
+        "fields": {
+            "city_name": "Мыски"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 613,
+        "fields": {
+            "city_name": "Мытищи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 614,
+        "fields": {
+            "city_name": "Мышкин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 615,
+        "fields": {
+            "city_name": "Набережные Челны"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 616,
+        "fields": {
+            "city_name": "Навашино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 617,
+        "fields": {
+            "city_name": "Наволоки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 618,
+        "fields": {
+            "city_name": "Надым"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 619,
+        "fields": {
+            "city_name": "Назарово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 620,
+        "fields": {
+            "city_name": "Назрань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 621,
+        "fields": {
+            "city_name": "Называевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 622,
+        "fields": {
+            "city_name": "Нальчик"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 623,
+        "fields": {
+            "city_name": "Нариманов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 624,
+        "fields": {
+            "city_name": "Наро-Фоминск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 625,
+        "fields": {
+            "city_name": "Нарткала"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 626,
+        "fields": {
+            "city_name": "Нарьян-Мар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 627,
+        "fields": {
+            "city_name": "Находка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 628,
+        "fields": {
+            "city_name": "Невель"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 629,
+        "fields": {
+            "city_name": "Невельск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 630,
+        "fields": {
+            "city_name": "Невинномысск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 631,
+        "fields": {
+            "city_name": "Невьянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 632,
+        "fields": {
+            "city_name": "Нелидово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 633,
+        "fields": {
+            "city_name": "Неман"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 634,
+        "fields": {
+            "city_name": "Нерехта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 635,
+        "fields": {
+            "city_name": "Нерчинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 636,
+        "fields": {
+            "city_name": "Нерюнгри"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 637,
+        "fields": {
+            "city_name": "Нестеров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 638,
+        "fields": {
+            "city_name": "Нефтегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 639,
+        "fields": {
+            "city_name": "Нефтекамск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 640,
+        "fields": {
+            "city_name": "Нефтекумск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 641,
+        "fields": {
+            "city_name": "Нефтеюганск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 642,
+        "fields": {
+            "city_name": "Нея"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 643,
+        "fields": {
+            "city_name": "Нижневартовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 644,
+        "fields": {
+            "city_name": "Нижнекамск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 645,
+        "fields": {
+            "city_name": "Нижнеудинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 646,
+        "fields": {
+            "city_name": "Нижние Серги"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 647,
+        "fields": {
+            "city_name": "Нижний Ломов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 648,
+        "fields": {
+            "city_name": "Нижний Новгород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 649,
+        "fields": {
+            "city_name": "Нижний Тагил"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 650,
+        "fields": {
+            "city_name": "Нижняя Салда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 651,
+        "fields": {
+            "city_name": "Нижняя Тура"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 652,
+        "fields": {
+            "city_name": "Николаевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 653,
+        "fields": {
+            "city_name": "Николаевск-на-Амуре"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 654,
+        "fields": {
+            "city_name": "Никольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 655,
+        "fields": {
+            "city_name": "Никольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 656,
+        "fields": {
+            "city_name": "Никольское"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 657,
+        "fields": {
+            "city_name": "Новая Ладога"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 658,
+        "fields": {
+            "city_name": "Новая Ляля"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 659,
+        "fields": {
+            "city_name": "Новоалександровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 660,
+        "fields": {
+            "city_name": "Новоалтайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 661,
+        "fields": {
+            "city_name": "Новоаннинский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 662,
+        "fields": {
+            "city_name": "Нововоронеж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 663,
+        "fields": {
+            "city_name": "Новодвинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 664,
+        "fields": {
+            "city_name": "Новозыбков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 665,
+        "fields": {
+            "city_name": "Новокубанск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 666,
+        "fields": {
+            "city_name": "Новокузнецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 667,
+        "fields": {
+            "city_name": "Новокуйбышевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 668,
+        "fields": {
+            "city_name": "Новомичуринск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 669,
+        "fields": {
+            "city_name": "Новомосковск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 670,
+        "fields": {
+            "city_name": "Новопавловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 671,
+        "fields": {
+            "city_name": "Новоржев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 672,
+        "fields": {
+            "city_name": "Новороссийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 673,
+        "fields": {
+            "city_name": "Новосибирск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 674,
+        "fields": {
+            "city_name": "Новосиль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 675,
+        "fields": {
+            "city_name": "Новосокольники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 676,
+        "fields": {
+            "city_name": "Новотроицк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 677,
+        "fields": {
+            "city_name": "Новоузенск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 678,
+        "fields": {
+            "city_name": "Новоульяновск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 679,
+        "fields": {
+            "city_name": "Новоуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 680,
+        "fields": {
+            "city_name": "Новохопёрск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 681,
+        "fields": {
+            "city_name": "Новочебоксарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 682,
+        "fields": {
+            "city_name": "Новочеркасск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 683,
+        "fields": {
+            "city_name": "Новошахтинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 684,
+        "fields": {
+            "city_name": "Новый Оскол"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 685,
+        "fields": {
+            "city_name": "Новый Уренгой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 686,
+        "fields": {
+            "city_name": "Ногинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 687,
+        "fields": {
+            "city_name": "Нолинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 688,
+        "fields": {
+            "city_name": "Норильск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 689,
+        "fields": {
+            "city_name": "Ноябрьск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 690,
+        "fields": {
+            "city_name": "Нурлат"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 691,
+        "fields": {
+            "city_name": "Нытва"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 692,
+        "fields": {
+            "city_name": "Нюрба"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 693,
+        "fields": {
+            "city_name": "Нягань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 694,
+        "fields": {
+            "city_name": "Нязепетровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 695,
+        "fields": {
+            "city_name": "Няндома"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 696,
+        "fields": {
+            "city_name": "Облучье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 697,
+        "fields": {
+            "city_name": "Обнинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 698,
+        "fields": {
+            "city_name": "Обоянь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 699,
+        "fields": {
+            "city_name": "Обь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 700,
+        "fields": {
+            "city_name": "Одинцово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 701,
+        "fields": {
+            "city_name": "Озёрск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 702,
+        "fields": {
+            "city_name": "Озёрск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 703,
+        "fields": {
+            "city_name": "Озёры"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 704,
+        "fields": {
+            "city_name": "Октябрьск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 705,
+        "fields": {
+            "city_name": "Октябрьский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 706,
+        "fields": {
+            "city_name": "Окуловка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 707,
+        "fields": {
+            "city_name": "Олёкминск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 708,
+        "fields": {
+            "city_name": "Оленегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 709,
+        "fields": {
+            "city_name": "Олонец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 710,
+        "fields": {
+            "city_name": "Омск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 711,
+        "fields": {
+            "city_name": "Омутнинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 712,
+        "fields": {
+            "city_name": "Онега"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 713,
+        "fields": {
+            "city_name": "Опочка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 714,
+        "fields": {
+            "city_name": "Орёл"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 715,
+        "fields": {
+            "city_name": "Оренбург"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 716,
+        "fields": {
+            "city_name": "Орехово-Зуево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 717,
+        "fields": {
+            "city_name": "Орлов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 718,
+        "fields": {
+            "city_name": "Орск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 719,
+        "fields": {
+            "city_name": "Оса"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 720,
+        "fields": {
+            "city_name": "Осинники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 721,
+        "fields": {
+            "city_name": "Осташков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 722,
+        "fields": {
+            "city_name": "Остров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 723,
+        "fields": {
+            "city_name": "Островной"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 724,
+        "fields": {
+            "city_name": "Острогожск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 725,
+        "fields": {
+            "city_name": "Отрадное"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 726,
+        "fields": {
+            "city_name": "Отрадный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 727,
+        "fields": {
+            "city_name": "Оха"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 728,
+        "fields": {
+            "city_name": "Оханск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 729,
+        "fields": {
+            "city_name": "Очёр"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 730,
+        "fields": {
+            "city_name": "Павлово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 731,
+        "fields": {
+            "city_name": "Павловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 732,
+        "fields": {
+            "city_name": "Павловский Посад"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 733,
+        "fields": {
+            "city_name": "Палласовка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 734,
+        "fields": {
+            "city_name": "Партизанск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 735,
+        "fields": {
+            "city_name": "Певек"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 736,
+        "fields": {
+            "city_name": "Пенза"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 737,
+        "fields": {
+            "city_name": "Первомайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 738,
+        "fields": {
+            "city_name": "Первоуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 739,
+        "fields": {
+            "city_name": "Перевоз"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 740,
+        "fields": {
+            "city_name": "Пересвет"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 741,
+        "fields": {
+            "city_name": "Переславль-Залесский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 742,
+        "fields": {
+            "city_name": "Пермь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 743,
+        "fields": {
+            "city_name": "Пестово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 744,
+        "fields": {
+            "city_name": "Петров Вал"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 745,
+        "fields": {
+            "city_name": "Петровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 746,
+        "fields": {
+            "city_name": "Петровск-Забайкальский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 747,
+        "fields": {
+            "city_name": "Петрозаводск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 748,
+        "fields": {
+            "city_name": "Петропавловск-Камчатский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 749,
+        "fields": {
+            "city_name": "Петухово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 750,
+        "fields": {
+            "city_name": "Петушки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 751,
+        "fields": {
+            "city_name": "Печора"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 752,
+        "fields": {
+            "city_name": "Печоры"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 753,
+        "fields": {
+            "city_name": "Пикалёво"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 754,
+        "fields": {
+            "city_name": "Пионерский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 755,
+        "fields": {
+            "city_name": "Питкяранта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 756,
+        "fields": {
+            "city_name": "Плавск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 757,
+        "fields": {
+            "city_name": "Пласт"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 758,
+        "fields": {
+            "city_name": "Плёс"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 759,
+        "fields": {
+            "city_name": "Поворино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 760,
+        "fields": {
+            "city_name": "Подольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 761,
+        "fields": {
+            "city_name": "Подпорожье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 762,
+        "fields": {
+            "city_name": "Покачи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 763,
+        "fields": {
+            "city_name": "Покров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 764,
+        "fields": {
+            "city_name": "Покровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 765,
+        "fields": {
+            "city_name": "Полевской"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 766,
+        "fields": {
+            "city_name": "Полесск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 767,
+        "fields": {
+            "city_name": "Полысаево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 768,
+        "fields": {
+            "city_name": "Полярные Зори"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 769,
+        "fields": {
+            "city_name": "Полярный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 770,
+        "fields": {
+            "city_name": "Поронайск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 771,
+        "fields": {
+            "city_name": "Порхов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 772,
+        "fields": {
+            "city_name": "Похвистнево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 773,
+        "fields": {
+            "city_name": "Почеп"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 774,
+        "fields": {
+            "city_name": "Починок"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 775,
+        "fields": {
+            "city_name": "Пошехонье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 776,
+        "fields": {
+            "city_name": "Правдинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 777,
+        "fields": {
+            "city_name": "Приволжск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 778,
+        "fields": {
+            "city_name": "Приморск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 779,
+        "fields": {
+            "city_name": "Приморск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 780,
+        "fields": {
+            "city_name": "Приморско-Ахтарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 781,
+        "fields": {
+            "city_name": "Приозерск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 782,
+        "fields": {
+            "city_name": "Прокопьевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 783,
+        "fields": {
+            "city_name": "Пролетарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 784,
+        "fields": {
+            "city_name": "Протвино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 785,
+        "fields": {
+            "city_name": "Прохладный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 786,
+        "fields": {
+            "city_name": "Псков"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 787,
+        "fields": {
+            "city_name": "Пугачёв"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 788,
+        "fields": {
+            "city_name": "Пудож"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 789,
+        "fields": {
+            "city_name": "Пустошка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 790,
+        "fields": {
+            "city_name": "Пучеж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 791,
+        "fields": {
+            "city_name": "Пушкино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 792,
+        "fields": {
+            "city_name": "Пущино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 793,
+        "fields": {
+            "city_name": "Пыталово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 794,
+        "fields": {
+            "city_name": "Пыть-Ях"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 795,
+        "fields": {
+            "city_name": "Пятигорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 796,
+        "fields": {
+            "city_name": "Радужный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 797,
+        "fields": {
+            "city_name": "Радужный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 798,
+        "fields": {
+            "city_name": "Райчихинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 799,
+        "fields": {
+            "city_name": "Раменское"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 800,
+        "fields": {
+            "city_name": "Рассказово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 801,
+        "fields": {
+            "city_name": "Ревда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 802,
+        "fields": {
+            "city_name": "Реж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 803,
+        "fields": {
+            "city_name": "Реутов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 804,
+        "fields": {
+            "city_name": "Ржев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 805,
+        "fields": {
+            "city_name": "Родники"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 806,
+        "fields": {
+            "city_name": "Рославль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 807,
+        "fields": {
+            "city_name": "Россошь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 808,
+        "fields": {
+            "city_name": "Ростов-на-Дону"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 809,
+        "fields": {
+            "city_name": "Ростов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 810,
+        "fields": {
+            "city_name": "Рошаль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 811,
+        "fields": {
+            "city_name": "Ртищево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 812,
+        "fields": {
+            "city_name": "Рубцовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 813,
+        "fields": {
+            "city_name": "Рудня"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 814,
+        "fields": {
+            "city_name": "Руза"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 815,
+        "fields": {
+            "city_name": "Рузаевка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 816,
+        "fields": {
+            "city_name": "Рыбинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 817,
+        "fields": {
+            "city_name": "Рыбное"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 818,
+        "fields": {
+            "city_name": "Рыльск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 819,
+        "fields": {
+            "city_name": "Ряжск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 820,
+        "fields": {
+            "city_name": "Рязань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 821,
+        "fields": {
+            "city_name": "Саки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 822,
+        "fields": {
+            "city_name": "Салават"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 823,
+        "fields": {
+            "city_name": "Салаир"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 824,
+        "fields": {
+            "city_name": "Салехард"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 825,
+        "fields": {
+            "city_name": "Сальск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 826,
+        "fields": {
+            "city_name": "Самара"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 827,
+        "fields": {
+            "city_name": "Санкт-Петербург"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 828,
+        "fields": {
+            "city_name": "Саранск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 829,
+        "fields": {
+            "city_name": "Сарапул"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 830,
+        "fields": {
+            "city_name": "Саратов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 831,
+        "fields": {
+            "city_name": "Саров"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 832,
+        "fields": {
+            "city_name": "Сасово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 833,
+        "fields": {
+            "city_name": "Сатка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 834,
+        "fields": {
+            "city_name": "Сафоново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 835,
+        "fields": {
+            "city_name": "Саяногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 836,
+        "fields": {
+            "city_name": "Саянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 837,
+        "fields": {
+            "city_name": "Светлогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 838,
+        "fields": {
+            "city_name": "Светлоград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 839,
+        "fields": {
+            "city_name": "Светлый"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 840,
+        "fields": {
+            "city_name": "Светогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 841,
+        "fields": {
+            "city_name": "Свирск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 842,
+        "fields": {
+            "city_name": "Свободный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 843,
+        "fields": {
+            "city_name": "Себеж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 844,
+        "fields": {
+            "city_name": "Севастополь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 845,
+        "fields": {
+            "city_name": "Северо-Курильск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 846,
+        "fields": {
+            "city_name": "Северобайкальск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 847,
+        "fields": {
+            "city_name": "Северодвинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 848,
+        "fields": {
+            "city_name": "Североморск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 849,
+        "fields": {
+            "city_name": "Североуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 850,
+        "fields": {
+            "city_name": "Северск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 851,
+        "fields": {
+            "city_name": "Севск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 852,
+        "fields": {
+            "city_name": "Сегежа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 853,
+        "fields": {
+            "city_name": "Сельцо"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 854,
+        "fields": {
+            "city_name": "Семёнов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 855,
+        "fields": {
+            "city_name": "Семикаракорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 856,
+        "fields": {
+            "city_name": "Семилуки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 857,
+        "fields": {
+            "city_name": "Сенгилей"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 858,
+        "fields": {
+            "city_name": "Серафимович"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 859,
+        "fields": {
+            "city_name": "Сергач"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 860,
+        "fields": {
+            "city_name": "Сергиев Посад"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 861,
+        "fields": {
+            "city_name": "Сердобск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 862,
+        "fields": {
+            "city_name": "Серов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 863,
+        "fields": {
+            "city_name": "Серпухов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 864,
+        "fields": {
+            "city_name": "Сертолово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 865,
+        "fields": {
+            "city_name": "Сибай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 866,
+        "fields": {
+            "city_name": "Сим"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 867,
+        "fields": {
+            "city_name": "Симферополь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 868,
+        "fields": {
+            "city_name": "Сковородино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 869,
+        "fields": {
+            "city_name": "Скопин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 870,
+        "fields": {
+            "city_name": "Славгород"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 871,
+        "fields": {
+            "city_name": "Славск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 872,
+        "fields": {
+            "city_name": "Славянск-на-Кубани"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 873,
+        "fields": {
+            "city_name": "Сланцы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 874,
+        "fields": {
+            "city_name": "Слободской"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 875,
+        "fields": {
+            "city_name": "Слюдянка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 876,
+        "fields": {
+            "city_name": "Смоленск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 877,
+        "fields": {
+            "city_name": "Снежинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 878,
+        "fields": {
+            "city_name": "Снежногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 879,
+        "fields": {
+            "city_name": "Собинка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 880,
+        "fields": {
+            "city_name": "Советск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 881,
+        "fields": {
+            "city_name": "Советск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 882,
+        "fields": {
+            "city_name": "Советск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 883,
+        "fields": {
+            "city_name": "Советская Гавань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 884,
+        "fields": {
+            "city_name": "Советский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 885,
+        "fields": {
+            "city_name": "Сокол"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 886,
+        "fields": {
+            "city_name": "Солигалич"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 887,
+        "fields": {
+            "city_name": "Соликамск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 888,
+        "fields": {
+            "city_name": "Солнечногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 889,
+        "fields": {
+            "city_name": "Соль-Илецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 890,
+        "fields": {
+            "city_name": "Сольвычегодск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 891,
+        "fields": {
+            "city_name": "Сольцы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 892,
+        "fields": {
+            "city_name": "Сорочинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 893,
+        "fields": {
+            "city_name": "Сорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 894,
+        "fields": {
+            "city_name": "Сортавала"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 895,
+        "fields": {
+            "city_name": "Сосенский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 896,
+        "fields": {
+            "city_name": "Сосновка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 897,
+        "fields": {
+            "city_name": "Сосновоборск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 898,
+        "fields": {
+            "city_name": "Сосновый Бор"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 899,
+        "fields": {
+            "city_name": "Сосногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 900,
+        "fields": {
+            "city_name": "Сочи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 901,
+        "fields": {
+            "city_name": "Спас-Деменск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 902,
+        "fields": {
+            "city_name": "Спас-Клепики"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 903,
+        "fields": {
+            "city_name": "Спасск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 904,
+        "fields": {
+            "city_name": "Спасск-Дальний"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 905,
+        "fields": {
+            "city_name": "Спасск-Рязанский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 906,
+        "fields": {
+            "city_name": "Среднеколымск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 907,
+        "fields": {
+            "city_name": "Среднеуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 908,
+        "fields": {
+            "city_name": "Сретенск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 909,
+        "fields": {
+            "city_name": "Ставрополь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 910,
+        "fields": {
+            "city_name": "Старая Купавна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 911,
+        "fields": {
+            "city_name": "Старая Русса"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 912,
+        "fields": {
+            "city_name": "Старица"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 913,
+        "fields": {
+            "city_name": "Стародуб"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 914,
+        "fields": {
+            "city_name": "Старый Крым"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 915,
+        "fields": {
+            "city_name": "Старый Оскол"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 916,
+        "fields": {
+            "city_name": "Стерлитамак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 917,
+        "fields": {
+            "city_name": "Стрежевой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 918,
+        "fields": {
+            "city_name": "Строитель"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 919,
+        "fields": {
+            "city_name": "Струнино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 920,
+        "fields": {
+            "city_name": "Ступино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 921,
+        "fields": {
+            "city_name": "Суворов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 922,
+        "fields": {
+            "city_name": "Судак"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 923,
+        "fields": {
+            "city_name": "Суджа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 924,
+        "fields": {
+            "city_name": "Судогда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 925,
+        "fields": {
+            "city_name": "Суздаль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 926,
+        "fields": {
+            "city_name": "Сунжа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 927,
+        "fields": {
+            "city_name": "Суоярви"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 928,
+        "fields": {
+            "city_name": "Сураж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 929,
+        "fields": {
+            "city_name": "Сургут"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 930,
+        "fields": {
+            "city_name": "Суровикино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 931,
+        "fields": {
+            "city_name": "Сурск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 932,
+        "fields": {
+            "city_name": "Сусуман"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 933,
+        "fields": {
+            "city_name": "Сухиничи"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 934,
+        "fields": {
+            "city_name": "Сухой Лог"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 935,
+        "fields": {
+            "city_name": "Сызрань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 936,
+        "fields": {
+            "city_name": "Сыктывкар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 937,
+        "fields": {
+            "city_name": "Сысерть"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 938,
+        "fields": {
+            "city_name": "Сычёвка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 939,
+        "fields": {
+            "city_name": "Сясьстрой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 940,
+        "fields": {
+            "city_name": "Тавда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 941,
+        "fields": {
+            "city_name": "Таганрог"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 942,
+        "fields": {
+            "city_name": "Тайга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 943,
+        "fields": {
+            "city_name": "Тайшет"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 944,
+        "fields": {
+            "city_name": "Талдом"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 945,
+        "fields": {
+            "city_name": "Талица"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 946,
+        "fields": {
+            "city_name": "Тамбов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 947,
+        "fields": {
+            "city_name": "Тара"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 948,
+        "fields": {
+            "city_name": "Тарко-Сале"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 949,
+        "fields": {
+            "city_name": "Таруса"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 950,
+        "fields": {
+            "city_name": "Татарск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 951,
+        "fields": {
+            "city_name": "Таштагол"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 952,
+        "fields": {
+            "city_name": "Тверь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 953,
+        "fields": {
+            "city_name": "Теберда"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 954,
+        "fields": {
+            "city_name": "Тейково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 955,
+        "fields": {
+            "city_name": "Темников"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 956,
+        "fields": {
+            "city_name": "Темрюк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 957,
+        "fields": {
+            "city_name": "Терек"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 958,
+        "fields": {
+            "city_name": "Тетюши"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 959,
+        "fields": {
+            "city_name": "Тимашёвск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 960,
+        "fields": {
+            "city_name": "Тихвин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 961,
+        "fields": {
+            "city_name": "Тихорецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 962,
+        "fields": {
+            "city_name": "Тобольск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 963,
+        "fields": {
+            "city_name": "Тогучин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 964,
+        "fields": {
+            "city_name": "Тольятти"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 965,
+        "fields": {
+            "city_name": "Томари"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 966,
+        "fields": {
+            "city_name": "Томмот"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 967,
+        "fields": {
+            "city_name": "Томск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 968,
+        "fields": {
+            "city_name": "Топки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 969,
+        "fields": {
+            "city_name": "Торжок"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 970,
+        "fields": {
+            "city_name": "Торопец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 971,
+        "fields": {
+            "city_name": "Тосно"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 972,
+        "fields": {
+            "city_name": "Тотьма"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 973,
+        "fields": {
+            "city_name": "Трёхгорный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 974,
+        "fields": {
+            "city_name": "Троицк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 975,
+        "fields": {
+            "city_name": "Трубчевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 976,
+        "fields": {
+            "city_name": "Туапсе"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 977,
+        "fields": {
+            "city_name": "Туймазы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 978,
+        "fields": {
+            "city_name": "Тула"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 979,
+        "fields": {
+            "city_name": "Тулун"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 980,
+        "fields": {
+            "city_name": "Туран"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 981,
+        "fields": {
+            "city_name": "Туринск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 982,
+        "fields": {
+            "city_name": "Тутаев"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 983,
+        "fields": {
+            "city_name": "Тында"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 984,
+        "fields": {
+            "city_name": "Тырныауз"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 985,
+        "fields": {
+            "city_name": "Тюкалинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 986,
+        "fields": {
+            "city_name": "Тюмень"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 987,
+        "fields": {
+            "city_name": "Уварово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 988,
+        "fields": {
+            "city_name": "Углегорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 989,
+        "fields": {
+            "city_name": "Углич"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 990,
+        "fields": {
+            "city_name": "Удачный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 991,
+        "fields": {
+            "city_name": "Удомля"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 992,
+        "fields": {
+            "city_name": "Ужур"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 993,
+        "fields": {
+            "city_name": "Узловая"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 994,
+        "fields": {
+            "city_name": "Улан-Удэ"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 995,
+        "fields": {
+            "city_name": "Ульяновск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 996,
+        "fields": {
+            "city_name": "Унеча"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 997,
+        "fields": {
+            "city_name": "Урай"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 998,
+        "fields": {
+            "city_name": "Урень"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 999,
+        "fields": {
+            "city_name": "Уржум"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1000,
+        "fields": {
+            "city_name": "Урус-Мартан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1001,
+        "fields": {
+            "city_name": "Урюпинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1002,
+        "fields": {
+            "city_name": "Усинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1003,
+        "fields": {
+            "city_name": "Усмань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1004,
+        "fields": {
+            "city_name": "Усолье-Сибирское"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1005,
+        "fields": {
+            "city_name": "Усолье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1006,
+        "fields": {
+            "city_name": "Уссурийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1007,
+        "fields": {
+            "city_name": "Усть-Джегута"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1008,
+        "fields": {
+            "city_name": "Усть-Илимск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1009,
+        "fields": {
+            "city_name": "Усть-Катав"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1010,
+        "fields": {
+            "city_name": "Усть-Кут"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1011,
+        "fields": {
+            "city_name": "Усть-Лабинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1012,
+        "fields": {
+            "city_name": "Устюжна"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1013,
+        "fields": {
+            "city_name": "Уфа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1014,
+        "fields": {
+            "city_name": "Ухта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1015,
+        "fields": {
+            "city_name": "Учалы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1016,
+        "fields": {
+            "city_name": "Уяр"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1017,
+        "fields": {
+            "city_name": "Фатеж"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1018,
+        "fields": {
+            "city_name": "Феодосия"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1019,
+        "fields": {
+            "city_name": "Фокино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1020,
+        "fields": {
+            "city_name": "Фокино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1021,
+        "fields": {
+            "city_name": "Фролово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1022,
+        "fields": {
+            "city_name": "Фрязино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1023,
+        "fields": {
+            "city_name": "Фурманов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1024,
+        "fields": {
+            "city_name": "Хабаровск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1025,
+        "fields": {
+            "city_name": "Хадыженск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1026,
+        "fields": {
+            "city_name": "Ханты-Мансийск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1027,
+        "fields": {
+            "city_name": "Харабали"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1028,
+        "fields": {
+            "city_name": "Харовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1029,
+        "fields": {
+            "city_name": "Хасавюрт"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1030,
+        "fields": {
+            "city_name": "Хвалынск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1031,
+        "fields": {
+            "city_name": "Хилок"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1032,
+        "fields": {
+            "city_name": "Химки"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1033,
+        "fields": {
+            "city_name": "Холм"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1034,
+        "fields": {
+            "city_name": "Холмск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1035,
+        "fields": {
+            "city_name": "Хотьково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1036,
+        "fields": {
+            "city_name": "Цивильск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1037,
+        "fields": {
+            "city_name": "Цимлянск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1038,
+        "fields": {
+            "city_name": "Циолковский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1039,
+        "fields": {
+            "city_name": "Чадан"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1040,
+        "fields": {
+            "city_name": "Чайковский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1041,
+        "fields": {
+            "city_name": "Чапаевск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1042,
+        "fields": {
+            "city_name": "Чаплыгин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1043,
+        "fields": {
+            "city_name": "Чебаркуль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1044,
+        "fields": {
+            "city_name": "Чебоксары"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1045,
+        "fields": {
+            "city_name": "Чегем"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1046,
+        "fields": {
+            "city_name": "Чекалин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1047,
+        "fields": {
+            "city_name": "Челябинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1048,
+        "fields": {
+            "city_name": "Чердынь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1049,
+        "fields": {
+            "city_name": "Черемхово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1050,
+        "fields": {
+            "city_name": "Черепаново"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1051,
+        "fields": {
+            "city_name": "Череповец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1052,
+        "fields": {
+            "city_name": "Черкесск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1053,
+        "fields": {
+            "city_name": "Чёрмоз"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1054,
+        "fields": {
+            "city_name": "Черноголовка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1055,
+        "fields": {
+            "city_name": "Черногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1056,
+        "fields": {
+            "city_name": "Чернушка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1057,
+        "fields": {
+            "city_name": "Черняховск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1058,
+        "fields": {
+            "city_name": "Чехов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1059,
+        "fields": {
+            "city_name": "Чистополь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1060,
+        "fields": {
+            "city_name": "Чита"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1061,
+        "fields": {
+            "city_name": "Чкаловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1062,
+        "fields": {
+            "city_name": "Чудово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1063,
+        "fields": {
+            "city_name": "Чулым"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1064,
+        "fields": {
+            "city_name": "Чусовой"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1065,
+        "fields": {
+            "city_name": "Чухлома"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1066,
+        "fields": {
+            "city_name": "Шагонар"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1067,
+        "fields": {
+            "city_name": "Шадринск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1068,
+        "fields": {
+            "city_name": "Шали"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1069,
+        "fields": {
+            "city_name": "Шарыпово"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1070,
+        "fields": {
+            "city_name": "Шарья"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1071,
+        "fields": {
+            "city_name": "Шатура"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1072,
+        "fields": {
+            "city_name": "Шахты"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1073,
+        "fields": {
+            "city_name": "Шахунья"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1074,
+        "fields": {
+            "city_name": "Шацк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1075,
+        "fields": {
+            "city_name": "Шебекино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1076,
+        "fields": {
+            "city_name": "Шелехов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1077,
+        "fields": {
+            "city_name": "Шенкурск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1078,
+        "fields": {
+            "city_name": "Шилка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1079,
+        "fields": {
+            "city_name": "Шимановск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1080,
+        "fields": {
+            "city_name": "Шиханы"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1081,
+        "fields": {
+            "city_name": "Шлиссельбург"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1082,
+        "fields": {
+            "city_name": "Шумерля"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1083,
+        "fields": {
+            "city_name": "Шумиха"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1084,
+        "fields": {
+            "city_name": "Шуя"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1085,
+        "fields": {
+            "city_name": "Щёкино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1086,
+        "fields": {
+            "city_name": "Щёлкино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1087,
+        "fields": {
+            "city_name": "Щёлково"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1088,
+        "fields": {
+            "city_name": "Щигры"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1089,
+        "fields": {
+            "city_name": "Щучье"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1090,
+        "fields": {
+            "city_name": "Электрогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1091,
+        "fields": {
+            "city_name": "Электросталь"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1092,
+        "fields": {
+            "city_name": "Электроугли"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1093,
+        "fields": {
+            "city_name": "Элиста"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1094,
+        "fields": {
+            "city_name": "Энгельс"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1095,
+        "fields": {
+            "city_name": "Эртиль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1096,
+        "fields": {
+            "city_name": "Югорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1097,
+        "fields": {
+            "city_name": "Южа"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1098,
+        "fields": {
+            "city_name": "Южно-Сахалинск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1099,
+        "fields": {
+            "city_name": "Южно-Сухокумск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1100,
+        "fields": {
+            "city_name": "Южноуральск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1101,
+        "fields": {
+            "city_name": "Юрга"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1102,
+        "fields": {
+            "city_name": "Юрьев-Польский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1103,
+        "fields": {
+            "city_name": "Юрьевец"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1104,
+        "fields": {
+            "city_name": "Юрюзань"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1105,
+        "fields": {
+            "city_name": "Юхнов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1106,
+        "fields": {
+            "city_name": "Ядрин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1107,
+        "fields": {
+            "city_name": "Якутск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1108,
+        "fields": {
+            "city_name": "Ялта"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1109,
+        "fields": {
+            "city_name": "Ялуторовск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1110,
+        "fields": {
+            "city_name": "Янаул"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1111,
+        "fields": {
+            "city_name": "Яранск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1112,
+        "fields": {
+            "city_name": "Яровое"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1113,
+        "fields": {
+            "city_name": "Ярославль"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1114,
+        "fields": {
+            "city_name": "Ярцево"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1115,
+        "fields": {
+            "city_name": "Ясногорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1116,
+        "fields": {
+            "city_name": "Ясный"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1117,
+        "fields": {
+            "city_name": "Яхрома"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1118,
+        "fields": {
+            "city_name": "Балаклава"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1119,
+        "fields": {
+            "city_name": "Зеленогорск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1120,
+        "fields": {
+            "city_name": "Зеленоград"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1121,
+        "fields": {
+            "city_name": "Инкерман"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1122,
+        "fields": {
+            "city_name": "Колпино"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1123,
+        "fields": {
+            "city_name": "Красное Село"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1124,
+        "fields": {
+            "city_name": "Кронштадт"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1125,
+        "fields": {
+            "city_name": "Ломоносов"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1126,
+        "fields": {
+            "city_name": "Московский"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1127,
+        "fields": {
+            "city_name": "Павловск"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1128,
+        "fields": {
+            "city_name": "Петергоф"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1129,
+        "fields": {
+            "city_name": "Пушкин"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1130,
+        "fields": {
+            "city_name": "Сестрорецк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1131,
+        "fields": {
+            "city_name": "Троицк"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1132,
+        "fields": {
+            "city_name": "Щербинка"
+        }
+    },
+    {
+        "model": "main.city",
+        "pk": 1133,
+        "fields": {
+            "city_name": "Экономика"
+        }
+    }
+]

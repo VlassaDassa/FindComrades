@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'styles/login/login.css' %}">
+
+
+
+
+
+</head>
+<body>
+
+    {{ request.user.is_active|json_script:"user_active" }}
+
+    <!--Header-->
+    <div class="header">
+        <a href="main"><img src="{% static 'images/logo_2.png' %}"></a>
+    </div>
+
+
+    <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Упс... Ошибочка</h2>
+                <div class="content">
+                    Вы уже авторизованы.
+                    Сейчас вас перенаправит на <a href="{% url 'main' %}" id="link_main">главную страницу</a>
+<!--                    <span id="timer"></span>-->
+                    <div id="timer" class="circle surface with-border-gradient"><p>1</p></div>
+                </div>
+            </div>
+        </div>
+
+    <!--Login-->
+    <div class="container">
+          <p id="main_title">Авторизация</p>
+          <form method="POST" action="{% url 'login' %}" autocomplete="off" id="myForm">
+                <a href="#" class="password-control"></a>
+
+                {% csrf_token %}
+                {{ form.as_p }}
+
+          <input type=submit id="submit" value=Войти disabled>
+          </form>
+
+    </div>
+
+
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/csrf.js' %}"></script>
+    <script src="{% static 'js/login.js' %}"></script>
+
+</body>
+</html>

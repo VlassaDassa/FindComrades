@@ -1,0 +1,130 @@
+/* Reg */
+#id_username{
+    border-radius: 0px;
+}
+
+#id_email{
+    border-radius: 0px;
+}
+
+#id_password1{
+    border-radius: 0px;
+}
+
+#id_password2{
+    border-radius: 0px;
+}
+
+
+.helptext {
+  visibility: hidden;
+}
+
+ul {
+  display: none;
+}
+
+
+.container_for_form{
+    width: 44%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+    padding: 50px;
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+p{
+    font-family: Bombardier;
+    text-align: left;
+    color: rgb(255, 89, 89);
+}
+
+#reg{
+    font-size: 40px;
+    font-family: Bombardier;
+    text-align: center;
+    padding: 0px;
+    color: rgb(255, 89, 89);
+}
+
+#submit.completed{
+    background: black;
+}
+
+#submit{
+    background: rgb(255, 89, 89, 0.8);
+    font-family: Bombardier;
+    font-size: 20px;
+    border: 0px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Hover
+#submit:hover {
+    background: rgb(255, 89, 89, 0.9);
+}
+*/
+
+/* Header */
+.header{
+    background-color: rgb(255, 89, 89);
+    width: 100%;
+    height: 50px;
+}
+
+.header a{
+    margin-left: 20%;
+}
+
+.header img{
+    margin-top: 10px;
+}
+
+/* Иконка скрытия пароля */
+.container_for_form {
+	position: relative;
+}
+
+
+/* Глазок, чтобы показать/скрыть пароль */
+.password-control{
+	position: absolute;
+	top: 229px;
+	right: 60px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('/static/images/view.svg');) 0 0 no-repeat;
+}
+
+.password-control.view{
+   background: url('/static/images/hide.svg');) 0 0 no-repeat;
+}
+
+#error_username{
+    top: 252px;
+
+}
+
+
+/* Обесцвечивание кнопки, если поля не введены */
+#myForm:valid #submit {
+  background : rgb(255, 89, 89);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

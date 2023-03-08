@@ -1,0 +1,201 @@
+.container{
+    width: 22%;
+    margin 0 auto;
+    margin 0px;
+    padding: 50px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+    border-radius: 30px;
+    font-family: Bombardier;
+    color: rgb(255, 89, 89);
+}
+
+
+/* Header */
+.header{
+    background-color: rgb(255, 89, 89);
+    width: 100%;
+    height: 50px;
+}
+
+.header a{
+    margin-left: 20%;
+}
+
+.header img{
+    margin-top: 10px;
+}
+
+
+
+/* Fields */
+.form-control{
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 10px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+
+
+label{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#submit{
+    background: rgb(255, 89, 89, 0.8);
+    font-family: Bombardier;
+    font-size: 20px;
+    border: 0px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Глазок, чтобы показать/скрыть пароль */
+.password-control{
+	position: absolute;
+	top: 419px;
+	right: 810px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('/static/images/view.svg');) 0 0 no-repeat;
+}
+
+.password-control.view{
+   background: url('/static/images/hide.svg');) 0 0 no-repeat;
+}
+
+
+/* Other */
+#main_title{
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+
+.alert{
+    margin 0px;
+    margin-top: 20px;
+}
+
+
+#myForm:valid #submit {
+  background : rgb(255, 89, 89);
+}
+
+
+/* Errors */
+#invalid-feedback{
+    padding: 15px;
+    background: rgb(255, 89, 89);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.password-control#error_eye{
+    top: 479px;
+
+}
+
+
+/* Modal */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay.target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 150px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 45%;
+  height: 250px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Bombardier;
+}
+
+
+.popup .content {
+  max-height: 100%;
+  min-height: 60%;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.popup .content .circle{
+    padding: 0px;
+    margin-left: 50%;
+    margin-top: 35px;
+    font-family: Bombardier;
+    font-size: 35px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+#timer{
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+/* Rotating circle */
+.with-border-gradient {
+    --border-rotate: 0;
+    --border-width: 5px;
+
+    position: relative;
+    margin: calc(var(--border-width) / 2);
+    box-sizing: border-box;
+}
+
+.with-border-gradient::before {
+    position: absolute;
+    inset: calc(var(--border-width) * -0.5);
+    padding: var(--border-width);
+    border-radius: inherit;
+    background: conic-gradient(from calc(var(--border-rotate, 0) * 1deg), red, white, pink);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    content: '';
+}
+
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
